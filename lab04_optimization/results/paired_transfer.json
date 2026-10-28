@@ -1,0 +1,16 @@
+{
+  "inputs": {
+    "selection.json": "9636cfdbb9bb5c5d3fc90155814e7566eb6d41149a01b79aac306eaeec5a4897",
+    "transfer.csv": "377865b181067da598c6d718833ca9a4daa09543fea894251719ffe81a57a2a0"
+  },
+  "optimizer": "AdamW",
+  "control": "SGD",
+  "mean_difference": 0.06141216780986462,
+  "ci": [
+    0.03215118046432599,
+    0.09285087154643941
+  ],
+  "seeds": 5,
+  "interpretation": "Training-seed uncertainty on one fixed test only",
+  "confirmed_local": true
+}

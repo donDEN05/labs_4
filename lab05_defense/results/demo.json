@@ -1,0 +1,91 @@
+{
+  "mode": "offline replay of saved real LLM inference + live local model/policy",
+  "id": "231_CHEESE_48",
+  "category": "CHEESE",
+  "week": 48,
+  "history_end": 47,
+  "llm": {
+    "status": "selected",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "mode": "zero-shot",
+    "instruction": 1,
+    "rule": "validation invalid<=5%, F1 within .01 then Brier then latency",
+    "evaluated_models": 8
+  },
+  "llm_probability": 0.7497142396769061,
+  "multimodal_probability": 0.06920809298753738,
+  "blend_probability": 0.4094611704349518,
+  "algorithm": "COMA",
+  "categories": [
+    "SOFT DRINKS",
+    "FLUID MILK PRODUCTS",
+    "BAKED BREAD/BUNS/ROLLS",
+    "CHEESE",
+    "BAG SNACKS",
+    "FRZN MEAT/MEAT DINNERS",
+    "YOGURT",
+    "SOUP"
+  ],
+  "proposal_percent": [
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0
+  ],
+  "applied_percent": [
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0
+  ],
+  "simulation": {
+    "profit": 2.3251003973003552,
+    "revenue": 6.975301191901062,
+    "discount_cost": 0.7750334657667848,
+    "turnover": 4.0,
+    "proposed_violations": 0,
+    "applied_violations": 0,
+    "minimum_margin": 0.30000000000000004,
+    "remaining": 4.224966534233215,
+    "discounts": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "p": [
+      0.16733724743127823,
+      0.19044016420841217,
+      0.18128977835178375,
+      0.16420809298753739,
+      0.16523702561855316,
+      0.14099307104945183,
+      0.1533072118461132,
+      0.15883642554283142
+    ],
+    "actions": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "live_customer_offers_sent": 0,
+  "limitation": "The blend is an integration demonstration, not a validated joint causal policy"
+}

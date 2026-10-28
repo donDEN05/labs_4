@@ -1,0 +1,92 @@
+{
+  "raw_rows": 1469307,
+  "duplicates": 0,
+  "missing": {
+    "household_id": 0,
+    "store_id": 0,
+    "basket_id": 0,
+    "product_id": 0,
+    "quantity": 0,
+    "sales_value": 0,
+    "retail_disc": 0,
+    "coupon_disc": 0,
+    "coupon_match_disc": 0,
+    "week": 0,
+    "transaction_timestamp": 0
+  },
+  "excluded": 11061,
+  "category_exclusions": [
+    "COUPON/MISC ITEMS: accounting entries, not goods",
+    "FUEL: outside chosen e-commerce goods scope"
+  ],
+  "weeks": [
+    1,
+    53
+  ],
+  "categories": [
+    "SOFT DRINKS",
+    "FLUID MILK PRODUCTS",
+    "BAKED BREAD/BUNS/ROLLS",
+    "CHEESE",
+    "BAG SNACKS",
+    "FRZN MEAT/MEAT DINNERS",
+    "YOGURT",
+    "SOUP"
+  ],
+  "selected_households": 200,
+  "transfer_households": 20,
+  "panel_rows": 66560,
+  "by_split": [
+    {
+      "cohort": "main",
+      "split": "test",
+      "label": 0,
+      "n": 7926
+    },
+    {
+      "cohort": "main",
+      "split": "test",
+      "label": 1,
+      "n": 1674
+    },
+    {
+      "cohort": "main",
+      "split": "train",
+      "label": 0,
+      "n": 38345
+    },
+    {
+      "cohort": "main",
+      "split": "train",
+      "label": 1,
+      "n": 8055
+    },
+    {
+      "cohort": "main",
+      "split": "validation",
+      "label": 0,
+      "n": 7943
+    },
+    {
+      "cohort": "main",
+      "split": "validation",
+      "label": 1,
+      "n": 1657
+    },
+    {
+      "cohort": "transfer",
+      "split": "test",
+      "label": 0,
+      "n": 825
+    },
+    {
+      "cohort": "transfer",
+      "split": "test",
+      "label": 1,
+      "n": 135
+    }
+  ],
+  "sample_hash": "5063df19106d13e603a54abd67efa7c48d7dbc95a28216ee310c0105d3200428",
+  "timezone": "Source week index; no exchange calendar or invented timezone",
+  "discount_sign": "Nonnegative in this processed Complete Journey version"
+}

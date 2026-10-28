@@ -1,0 +1,9 @@
+{
+  "algorithm": "IPPO",
+  "seed": 11,
+  "steps": 2000,
+  "elapsed": 0.9804205999244004,
+  "status": "complete",
+  "parameters": 1030,
+  "simulation_only": true
+}

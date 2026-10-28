@@ -1,0 +1,94 @@
+HTTP/1.1 302 Found
+Content-Type: text/plain; charset=utf-8
+Content-Length: 1054
+Connection: keep-alive
+Date: Thu, 22 Oct 2026 11:44:29 GMT
+Location: https://us.aws.cdn.hf.co/xet-bridge-us/66e98dd5899bdb384bd953b4/46ea4ba5786759efecf127c64dee654df39a3f02fdeaafc67734a06574619467?X-Xet-Cas-Uid=public&user_id=public&response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&xip=cTFtrX2UBB8&Expires=1792673069&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjZlOThkZDU4OTliZGIzODRiZDk1M2I0LzQ2ZWE0YmE1Nzg2NzU5ZWZlY2YxMjdjNjRkZWU2NTRkZjM5YTNmMDJmZGVhYWZjNjc3MzRhMDY1NzQ2MTk0NjdcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZ1c2VyX2lkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0IrZmlsZW5hbWUlMkElM0RVVEYtOCUyNyUyN21vZGVsLnNhZmV0ZW5zb3JzJTNCK2ZpbGVuYW1lJTNEJTIybW9kZWwuc2FmZXRlbnNvcnMlMjIlM0ImeGlwPWNURnRyWDJVQkI4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTI2NzMwNjl9fX1dfQ__&Signature=MEUCIDTO1V6pNNoOQrwcm917GlA9WjtFLyAIwbCw9Uz9WcgDAiEA%7Ei2z13F861bGN9Ir%7EOJrVBD9kw6Bhsfmdg5dPwGM2i0_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256
+X-Powered-By: huggingface-moon
+X-Request-Id: Root=1-6ad9f71d-34af482e67bbbdba31b5e36b
+RateLimit: "resolvers";r=2989;t=62
+RateLimit-Policy: "fixed window";"resolvers";q=3000;w=300
+cross-origin-opener-policy: same-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Origin: https://huggingface.co
+Vary: Origin, Accept
+Access-Control-Expose-Headers: X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash
+X-Repo-Commit: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+Accept-Ranges: bytes
+X-HF-Warning: unauthenticated; Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+X-Linked-Size: 3087467144
+X-Linked-ETag: "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+Cache-Control: no-store
+X-Xet-Hash: 46ea4ba5786759efecf127c64dee654df39a3f02fdeaafc67734a06574619467
+Link: <https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct/xet-read-token/989aa7980e4cf806f80c7fef2b1adb7bc71aa306>; rel="xet-auth", <https://cas-server.xethub.hf.co/v1/reconstructions/46ea4ba5786759efecf127c64dee654df39a3f02fdeaafc67734a06574619467>; rel="xet-reconstruction-info"
+X-Cache: Miss from cloudfront
+Via: 1.1 e93a56ddc3d7ec8c6f3655b7eb83ea6e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: FRA50-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: MEWnPZmRO7flUFfzju0RVh3eioSXsu9dItZY8FDzocpR-uNg53gbfg==
+Strict-Transport-Security: max-age=31536000
+
+HTTP/1.1 206 Partial Content
+content-type: application/octet-stream
+accept-ranges: bytes
+content-disposition: attachment; filename*=UTF-8''model.safetensors; filename="model.safetensors";
+etag: "46ea4ba5786759efecf127c64dee654df39a3f02fdeaafc67734a06574619467"
+content-security-policy: default-src 'none'; media-src 'self'; sandbox allow-same-origin
+access-control-allow-headers: Content-Range, Content-Type, Content-Disposition, ETag
+access-control-expose-headers: *
+content-length: 67108864
+content-range: bytes 1310355456-1377464319/3087467144
+vary: origin, access-control-request-method, access-control-request-headers
+access-control-allow-origin: *
+x-request-id: 01M5HPTK7TNJ7J6S3RJJBH15WG
+x-hf-cdn-pop: aws-eu-west-3
+date: Thu, 22 Oct 2026 11:44:30 GMT
+
+HTTP/1.1 302 Found
+Content-Type: text/plain; charset=utf-8
+Content-Length: 1052
+Connection: keep-alive
+Date: Thu, 22 Oct 2026 11:45:11 GMT
+Location: https://us.aws.cdn.hf.co/xet-bridge-us/66e98dd5899bdb384bd953b4/46ea4ba5786759efecf127c64dee654df39a3f02fdeaafc67734a06574619467?X-Xet-Cas-Uid=public&user_id=public&xip=cTFtrX2UBB8&response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1792673111&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjZlOThkZDU4OTliZGIzODRiZDk1M2I0LzQ2ZWE0YmE1Nzg2NzU5ZWZlY2YxMjdjNjRkZWU2NTRkZjM5YTNmMDJmZGVhYWZjNjc3MzRhMDY1NzQ2MTk0NjdcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZ1c2VyX2lkPXB1YmxpYyZ4aXA9Y1RGdHJYMlVCQjgmcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1hdHRhY2htZW50JTNCK2ZpbGVuYW1lJTJBJTNEVVRGLTglMjclMjdtb2RlbC5zYWZldGVuc29ycyUzQitmaWxlbmFtZSUzRCUyMm1vZGVsLnNhZmV0ZW5zb3JzJTIyJTNCIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTI2NzMxMTF9fX1dfQ__&Signature=MEUCIQDUGAPKr%7EmUl8-ocbLUpblw6Sxvq1PR3x2Bt0eIanXc1QIgLslLGOm3tpPEnJBM00i21ESdEL0QDZ86jgWjmcHTatc_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256
+X-Powered-By: huggingface-moon
+X-Request-Id: Root=1-6ad9f747-6377113d4a025ef90cdfa073
+RateLimit: "resolvers";r=2988;t=20
+RateLimit-Policy: "fixed window";"resolvers";q=3000;w=300
+cross-origin-opener-policy: same-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Origin: https://huggingface.co
+Vary: Origin, Accept
+Access-Control-Expose-Headers: X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash
+X-Repo-Commit: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+Accept-Ranges: bytes
+X-HF-Warning: unauthenticated; Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+X-Linked-Size: 3087467144
+X-Linked-ETag: "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+Cache-Control: no-store
+X-Xet-Hash: 46ea4ba5786759efecf127c64dee654df39a3f02fdeaafc67734a06574619467
+Link: <https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct/xet-read-token/989aa7980e4cf806f80c7fef2b1adb7bc71aa306>; rel="xet-auth", <https://cas-server.xethub.hf.co/v1/reconstructions/46ea4ba5786759efecf127c64dee654df39a3f02fdeaafc67734a06574619467>; rel="xet-reconstruction-info"
+X-Cache: Miss from cloudfront
+Via: 1.1 e93a56ddc3d7ec8c6f3655b7eb83ea6e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: FRA50-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: lmu-BUSepU6NubiWrkei2MtdYErAPR6siG9LIRdH3_2413enU5zLMg==
+Strict-Transport-Security: max-age=31536000
+
+HTTP/1.1 206 Partial Content
+content-type: application/octet-stream
+accept-ranges: bytes
+content-disposition: attachment; filename*=UTF-8''model.safetensors; filename="model.safetensors";
+etag: "46ea4ba5786759efecf127c64dee654df39a3f02fdeaafc67734a06574619467"
+content-security-policy: default-src 'none'; media-src 'self'; sandbox allow-same-origin
+access-control-allow-headers: Content-Range, Content-Type, Content-Disposition, ETag
+access-control-expose-headers: *
+content-length: 67108864
+content-range: bytes 1310355456-1377464319/3087467144
+vary: origin, access-control-request-method, access-control-request-headers
+access-control-allow-origin: *
+x-request-id: 01M5HPVVWR9QQ90R23NVM2WYE7
+x-hf-cdn-pop: aws-eu-west-3
+date: Thu, 22 Oct 2026 11:45:11 GMT
+

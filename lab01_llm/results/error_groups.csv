@@ -1,0 +1,385 @@
+model,mode,instruction,group,n,error_rate,dimension
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,0,41,0.6829268292682927,label
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,1,7,0.2857142857142857,label
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,0,41,0.975609756097561,label
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,1,7,0.0,label
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,0,41,0.4146341463414634,label
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,1,7,1.0,label
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,0,41,0.926829268292683,label
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,1,7,0.14285714285714285,label
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,0,41,0.4146341463414634,label
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,1,7,0.7142857142857143,label
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,0,41,0.8536585365853658,label
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,1,7,0.2857142857142857,label
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,0,41,0.17073170731707318,label
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,1,7,0.5714285714285714,label
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,0,41,0.926829268292683,label
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,1,7,0.0,label
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,0,41,0.36585365853658536,label
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,1,7,0.7142857142857143,label
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,0,41,0.7317073170731707,label
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,1,7,0.2857142857142857,label
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,0,41,0.07317073170731707,label
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,1,7,0.7142857142857143,label
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,0,41,0.5853658536585366,label
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,1,7,0.2857142857142857,label
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,0,41,0.1951219512195122,label
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,1,7,0.8571428571428571,label
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,0,41,0.1951219512195122,label
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,1,7,1.0,label
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,0,41,0.04878048780487805,label
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,1,7,1.0,label
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,0,41,0.5609756097560976,label
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,1,7,0.5714285714285714,label
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,0,41,0.2926829268292683,label
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,1,7,0.8571428571428571,label
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,0,41,0.17073170731707318,label
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,1,7,0.5714285714285714,label
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,0,41,0.2926829268292683,label
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,1,7,0.42857142857142855,label
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,0,41,0.36585365853658536,label
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,1,7,0.5714285714285714,label
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,0,41,0.34146341463414637,label
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,1,7,1.0,label
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,0,41,0.3902439024390244,label
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,1,7,0.8571428571428571,label
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,0,41,0.12195121951219512,label
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,1,7,0.8571428571428571,label
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,0,41,0.43902439024390244,label
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,1,7,0.5714285714285714,label
+Qwen/Qwen3-0.6B,six-shot,0,0,41,0.14634146341463414,label
+Qwen/Qwen3-0.6B,six-shot,0,1,7,1.0,label
+Qwen/Qwen3-0.6B,six-shot,1,0,41,0.975609756097561,label
+Qwen/Qwen3-0.6B,six-shot,1,1,7,0.0,label
+Qwen/Qwen3-0.6B,zero-shot,0,0,41,0.0975609756097561,label
+Qwen/Qwen3-0.6B,zero-shot,0,1,7,0.8571428571428571,label
+Qwen/Qwen3-0.6B,zero-shot,1,0,41,1.0,label
+Qwen/Qwen3-0.6B,zero-shot,1,1,7,0.0,label
+Qwen/Qwen3-1.7B,six-shot,0,0,41,0.07317073170731707,label
+Qwen/Qwen3-1.7B,six-shot,0,1,7,0.7142857142857143,label
+Qwen/Qwen3-1.7B,six-shot,1,0,41,0.6097560975609756,label
+Qwen/Qwen3-1.7B,six-shot,1,1,7,0.2857142857142857,label
+Qwen/Qwen3-1.7B,zero-shot,0,0,41,0.2682926829268293,label
+Qwen/Qwen3-1.7B,zero-shot,0,1,7,1.0,label
+Qwen/Qwen3-1.7B,zero-shot,1,0,41,0.8292682926829268,label
+Qwen/Qwen3-1.7B,zero-shot,1,1,7,0.2857142857142857,label
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,BAG SNACKS,5,0.6,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,CHEESE,3,0.6666666666666666,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,FLUID MILK PRODUCTS,12,0.8333333333333334,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,FRZN MEAT/MEAT DINNERS,8,0.5,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,SOFT DRINKS,4,0.75,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,SOUP,11,0.5454545454545454,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,YOGURT,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,BAG SNACKS,5,0.8,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,CHEESE,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,FLUID MILK PRODUCTS,12,1.0,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,FRZN MEAT/MEAT DINNERS,8,1.0,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,SOFT DRINKS,4,0.75,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,SOUP,11,0.8181818181818182,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,YOGURT,3,0.6666666666666666,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,BAG SNACKS,5,0.4,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,CHEESE,3,1.0,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,FLUID MILK PRODUCTS,12,0.5,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,FRZN MEAT/MEAT DINNERS,8,0.5,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,SOFT DRINKS,4,0.75,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,SOUP,11,0.45454545454545453,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,YOGURT,3,0.0,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,BAG SNACKS,5,0.8,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,CHEESE,3,0.6666666666666666,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,FLUID MILK PRODUCTS,12,1.0,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,FRZN MEAT/MEAT DINNERS,8,1.0,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,SOFT DRINKS,4,0.5,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,SOUP,11,0.8181818181818182,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,YOGURT,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,BAG SNACKS,5,0.6,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,CHEESE,3,0.6666666666666666,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,FLUID MILK PRODUCTS,12,0.4166666666666667,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,FRZN MEAT/MEAT DINNERS,8,0.375,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,SOFT DRINKS,4,0.75,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,SOUP,11,0.36363636363636365,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,YOGURT,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,BAG SNACKS,5,0.8,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,CHEESE,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,FLUID MILK PRODUCTS,12,0.9166666666666666,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,FRZN MEAT/MEAT DINNERS,8,1.0,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,SOFT DRINKS,4,0.5,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,SOUP,11,0.7272727272727273,category
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,YOGURT,3,0.6666666666666666,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,BAG SNACKS,5,0.4,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,CHEESE,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,FLUID MILK PRODUCTS,12,0.08333333333333333,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,FRZN MEAT/MEAT DINNERS,8,0.125,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,SOFT DRINKS,4,0.25,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,SOUP,11,0.2727272727272727,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,YOGURT,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,BAG SNACKS,5,0.8,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,CHEESE,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,FLUID MILK PRODUCTS,12,0.9166666666666666,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,FRZN MEAT/MEAT DINNERS,8,1.0,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,SOFT DRINKS,4,0.5,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,SOUP,11,0.7272727272727273,category
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,YOGURT,3,1.0,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,BAG SNACKS,5,0.4,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,BAKED BREAD/BUNS/ROLLS,2,1.0,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,CHEESE,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,FLUID MILK PRODUCTS,12,0.5833333333333334,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,FRZN MEAT/MEAT DINNERS,8,0.125,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,SOFT DRINKS,4,0.0,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,SOUP,11,0.5454545454545454,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,YOGURT,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,BAG SNACKS,5,0.8,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,CHEESE,3,0.6666666666666666,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,FLUID MILK PRODUCTS,12,0.6666666666666666,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,FRZN MEAT/MEAT DINNERS,8,0.75,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,SOFT DRINKS,4,0.75,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,SOUP,11,0.6363636363636364,category
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,YOGURT,3,0.3333333333333333,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,BAG SNACKS,5,0.6,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,CHEESE,3,0.6666666666666666,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,FLUID MILK PRODUCTS,12,0.08333333333333333,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,FRZN MEAT/MEAT DINNERS,8,0.0,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,SOFT DRINKS,4,0.0,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,SOUP,11,0.09090909090909091,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,YOGURT,3,0.0,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,BAG SNACKS,5,0.6,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,CHEESE,3,0.6666666666666666,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,FLUID MILK PRODUCTS,12,0.5,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,FRZN MEAT/MEAT DINNERS,8,0.75,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,SOFT DRINKS,4,0.75,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,SOUP,11,0.2727272727272727,category
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,YOGURT,3,0.6666666666666666,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,BAG SNACKS,5,0.2,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,CHEESE,3,0.6666666666666666,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,FLUID MILK PRODUCTS,12,0.08333333333333333,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,FRZN MEAT/MEAT DINNERS,8,0.25,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,SOFT DRINKS,4,0.75,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,SOUP,11,0.36363636363636365,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,YOGURT,3,0.0,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,BAG SNACKS,5,0.2,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,CHEESE,3,1.0,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,FLUID MILK PRODUCTS,12,0.3333333333333333,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,FRZN MEAT/MEAT DINNERS,8,0.0,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,SOFT DRINKS,4,0.25,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,SOUP,11,0.36363636363636365,category
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,YOGURT,3,0.3333333333333333,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,BAG SNACKS,5,0.4,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,CHEESE,3,0.6666666666666666,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,FLUID MILK PRODUCTS,12,0.0,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,FRZN MEAT/MEAT DINNERS,8,0.0,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,SOFT DRINKS,4,0.25,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,SOUP,11,0.2727272727272727,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,YOGURT,3,0.0,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,BAG SNACKS,5,0.6,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,CHEESE,3,0.6666666666666666,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,FLUID MILK PRODUCTS,12,0.5833333333333334,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,FRZN MEAT/MEAT DINNERS,8,0.875,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,SOFT DRINKS,4,0.75,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,SOUP,11,0.36363636363636365,category
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,YOGURT,3,0.0,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,BAG SNACKS,5,0.4,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,CHEESE,3,0.3333333333333333,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,FLUID MILK PRODUCTS,12,0.08333333333333333,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,FRZN MEAT/MEAT DINNERS,8,0.375,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,SOFT DRINKS,4,0.5,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,SOUP,11,0.5454545454545454,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,YOGURT,3,0.6666666666666666,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,BAG SNACKS,5,0.2,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.0,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,CHEESE,3,0.3333333333333333,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,FLUID MILK PRODUCTS,12,0.25,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,FRZN MEAT/MEAT DINNERS,8,0.125,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,SOFT DRINKS,4,0.5,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,SOUP,11,0.2727272727272727,category
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,YOGURT,3,0.0,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,BAG SNACKS,5,0.4,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.0,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,CHEESE,3,0.0,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,FLUID MILK PRODUCTS,12,0.5833333333333334,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,FRZN MEAT/MEAT DINNERS,8,0.0,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,SOFT DRINKS,4,0.0,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,SOUP,11,0.5454545454545454,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,YOGURT,3,0.0,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,BAG SNACKS,5,0.4,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.0,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,CHEESE,3,0.0,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,FLUID MILK PRODUCTS,12,0.3333333333333333,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,FRZN MEAT/MEAT DINNERS,8,0.375,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,SOFT DRINKS,4,0.5,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,SOUP,11,0.6363636363636364,category
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,YOGURT,3,0.3333333333333333,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,BAG SNACKS,5,0.6,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,BAKED BREAD/BUNS/ROLLS,2,1.0,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,CHEESE,3,0.6666666666666666,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,FLUID MILK PRODUCTS,12,0.4166666666666667,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,FRZN MEAT/MEAT DINNERS,8,0.125,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,SOFT DRINKS,4,0.5,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,SOUP,11,0.45454545454545453,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,YOGURT,3,0.3333333333333333,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,BAG SNACKS,5,0.4,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,CHEESE,3,0.3333333333333333,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,FLUID MILK PRODUCTS,12,0.3333333333333333,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,FRZN MEAT/MEAT DINNERS,8,0.25,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,SOFT DRINKS,4,0.5,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,SOUP,11,0.8181818181818182,category
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,YOGURT,3,0.3333333333333333,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,BAG SNACKS,5,0.2,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,CHEESE,3,0.6666666666666666,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,FLUID MILK PRODUCTS,12,0.08333333333333333,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,FRZN MEAT/MEAT DINNERS,8,0.25,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,SOFT DRINKS,4,0.25,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,SOUP,11,0.2727272727272727,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,YOGURT,3,0.0,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,BAG SNACKS,5,0.6,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,BAKED BREAD/BUNS/ROLLS,2,1.0,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,CHEESE,3,0.6666666666666666,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,FLUID MILK PRODUCTS,12,0.5,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,FRZN MEAT/MEAT DINNERS,8,0.5,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,SOFT DRINKS,4,0.25,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,SOUP,11,0.18181818181818182,category
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,YOGURT,3,0.6666666666666666,category
+Qwen/Qwen3-0.6B,six-shot,0,BAG SNACKS,5,0.2,category
+Qwen/Qwen3-0.6B,six-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen3-0.6B,six-shot,0,CHEESE,3,0.6666666666666666,category
+Qwen/Qwen3-0.6B,six-shot,0,FLUID MILK PRODUCTS,12,0.5,category
+Qwen/Qwen3-0.6B,six-shot,0,FRZN MEAT/MEAT DINNERS,8,0.0,category
+Qwen/Qwen3-0.6B,six-shot,0,SOFT DRINKS,4,0.25,category
+Qwen/Qwen3-0.6B,six-shot,0,SOUP,11,0.18181818181818182,category
+Qwen/Qwen3-0.6B,six-shot,0,YOGURT,3,0.0,category
+Qwen/Qwen3-0.6B,six-shot,1,BAG SNACKS,5,0.8,category
+Qwen/Qwen3-0.6B,six-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen3-0.6B,six-shot,1,CHEESE,3,0.3333333333333333,category
+Qwen/Qwen3-0.6B,six-shot,1,FLUID MILK PRODUCTS,12,0.9166666666666666,category
+Qwen/Qwen3-0.6B,six-shot,1,FRZN MEAT/MEAT DINNERS,8,1.0,category
+Qwen/Qwen3-0.6B,six-shot,1,SOFT DRINKS,4,0.75,category
+Qwen/Qwen3-0.6B,six-shot,1,SOUP,11,0.8181818181818182,category
+Qwen/Qwen3-0.6B,six-shot,1,YOGURT,3,1.0,category
+Qwen/Qwen3-0.6B,zero-shot,0,BAG SNACKS,5,0.2,category
+Qwen/Qwen3-0.6B,zero-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen3-0.6B,zero-shot,0,CHEESE,3,1.0,category
+Qwen/Qwen3-0.6B,zero-shot,0,FLUID MILK PRODUCTS,12,0.08333333333333333,category
+Qwen/Qwen3-0.6B,zero-shot,0,FRZN MEAT/MEAT DINNERS,8,0.0,category
+Qwen/Qwen3-0.6B,zero-shot,0,SOFT DRINKS,4,0.0,category
+Qwen/Qwen3-0.6B,zero-shot,0,SOUP,11,0.36363636363636365,category
+Qwen/Qwen3-0.6B,zero-shot,0,YOGURT,3,0.0,category
+Qwen/Qwen3-0.6B,zero-shot,1,BAG SNACKS,5,0.8,category
+Qwen/Qwen3-0.6B,zero-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen3-0.6B,zero-shot,1,CHEESE,3,0.3333333333333333,category
+Qwen/Qwen3-0.6B,zero-shot,1,FLUID MILK PRODUCTS,12,1.0,category
+Qwen/Qwen3-0.6B,zero-shot,1,FRZN MEAT/MEAT DINNERS,8,1.0,category
+Qwen/Qwen3-0.6B,zero-shot,1,SOFT DRINKS,4,0.75,category
+Qwen/Qwen3-0.6B,zero-shot,1,SOUP,11,0.8181818181818182,category
+Qwen/Qwen3-0.6B,zero-shot,1,YOGURT,3,1.0,category
+Qwen/Qwen3-1.7B,six-shot,0,BAG SNACKS,5,0.2,category
+Qwen/Qwen3-1.7B,six-shot,0,BAKED BREAD/BUNS/ROLLS,2,0.5,category
+Qwen/Qwen3-1.7B,six-shot,0,CHEESE,3,0.3333333333333333,category
+Qwen/Qwen3-1.7B,six-shot,0,FLUID MILK PRODUCTS,12,0.08333333333333333,category
+Qwen/Qwen3-1.7B,six-shot,0,FRZN MEAT/MEAT DINNERS,8,0.125,category
+Qwen/Qwen3-1.7B,six-shot,0,SOFT DRINKS,4,0.25,category
+Qwen/Qwen3-1.7B,six-shot,0,SOUP,11,0.18181818181818182,category
+Qwen/Qwen3-1.7B,six-shot,0,YOGURT,3,0.0,category
+Qwen/Qwen3-1.7B,six-shot,1,BAG SNACKS,5,0.6,category
+Qwen/Qwen3-1.7B,six-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.0,category
+Qwen/Qwen3-1.7B,six-shot,1,CHEESE,3,0.3333333333333333,category
+Qwen/Qwen3-1.7B,six-shot,1,FLUID MILK PRODUCTS,12,0.5,category
+Qwen/Qwen3-1.7B,six-shot,1,FRZN MEAT/MEAT DINNERS,8,0.75,category
+Qwen/Qwen3-1.7B,six-shot,1,SOFT DRINKS,4,0.5,category
+Qwen/Qwen3-1.7B,six-shot,1,SOUP,11,0.5454545454545454,category
+Qwen/Qwen3-1.7B,six-shot,1,YOGURT,3,1.0,category
+Qwen/Qwen3-1.7B,zero-shot,0,BAG SNACKS,5,0.4,category
+Qwen/Qwen3-1.7B,zero-shot,0,BAKED BREAD/BUNS/ROLLS,2,1.0,category
+Qwen/Qwen3-1.7B,zero-shot,0,CHEESE,3,0.6666666666666666,category
+Qwen/Qwen3-1.7B,zero-shot,0,FLUID MILK PRODUCTS,12,0.3333333333333333,category
+Qwen/Qwen3-1.7B,zero-shot,0,FRZN MEAT/MEAT DINNERS,8,0.25,category
+Qwen/Qwen3-1.7B,zero-shot,0,SOFT DRINKS,4,0.75,category
+Qwen/Qwen3-1.7B,zero-shot,0,SOUP,11,0.2727272727272727,category
+Qwen/Qwen3-1.7B,zero-shot,0,YOGURT,3,0.0,category
+Qwen/Qwen3-1.7B,zero-shot,1,BAG SNACKS,5,0.8,category
+Qwen/Qwen3-1.7B,zero-shot,1,BAKED BREAD/BUNS/ROLLS,2,0.0,category
+Qwen/Qwen3-1.7B,zero-shot,1,CHEESE,3,0.6666666666666666,category
+Qwen/Qwen3-1.7B,zero-shot,1,FLUID MILK PRODUCTS,12,0.9166666666666666,category
+Qwen/Qwen3-1.7B,zero-shot,1,FRZN MEAT/MEAT DINNERS,8,0.625,category
+Qwen/Qwen3-1.7B,zero-shot,1,SOFT DRINKS,4,0.5,category
+Qwen/Qwen3-1.7B,zero-shot,1,SOUP,11,0.8181818181818182,category
+Qwen/Qwen3-1.7B,zero-shot,1,YOGURT,3,1.0,category
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,en,48,0.625,language
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,en,48,0.8333333333333334,language
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,en,48,0.5,language
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,en,48,0.8125,language
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,en,48,0.4583333333333333,language
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,en,48,0.7708333333333334,language
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,en,48,0.22916666666666666,language
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,en,48,0.7916666666666666,language
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,en,48,0.4166666666666667,language
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,en,48,0.6666666666666666,language
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,en,48,0.16666666666666666,language
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,en,48,0.5416666666666666,language
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,en,48,0.2916666666666667,language
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,en,48,0.3125,language
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,en,48,0.1875,language
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,en,48,0.5625,language
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,en,48,0.375,language
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,en,48,0.22916666666666666,language
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,en,48,0.3125,language
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,en,48,0.3958333333333333,language
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,en,48,0.4375,language
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,en,48,0.4583333333333333,language
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,en,48,0.22916666666666666,language
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,en,48,0.4583333333333333,language
+Qwen/Qwen3-0.6B,six-shot,0,en,48,0.2708333333333333,language
+Qwen/Qwen3-0.6B,six-shot,1,en,48,0.8333333333333334,language
+Qwen/Qwen3-0.6B,zero-shot,0,en,48,0.20833333333333334,language
+Qwen/Qwen3-0.6B,zero-shot,1,en,48,0.8541666666666666,language
+Qwen/Qwen3-1.7B,six-shot,0,en,48,0.16666666666666666,language
+Qwen/Qwen3-1.7B,six-shot,1,en,48,0.5625,language
+Qwen/Qwen3-1.7B,zero-shot,0,en,48,0.375,language
+Qwen/Qwen3-1.7B,zero-shot,1,en,48,0.75,language
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,0,short,48,0.625,length_group
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,1,short,48,0.8333333333333334,length_group
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,0,short,48,0.5,length_group
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,1,short,48,0.8125,length_group
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,0,short,48,0.4583333333333333,length_group
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,1,short,48,0.7708333333333334,length_group
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,0,short,48,0.22916666666666666,length_group
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,1,short,48,0.7916666666666666,length_group
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,0,short,48,0.4166666666666667,length_group
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,1,short,48,0.6666666666666666,length_group
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,0,short,48,0.16666666666666666,length_group
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,1,short,48,0.5416666666666666,length_group
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,0,short,48,0.2916666666666667,length_group
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,1,short,48,0.3125,length_group
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,0,short,48,0.1875,length_group
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,1,short,48,0.5625,length_group
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,0,short,48,0.375,length_group
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,1,short,48,0.22916666666666666,length_group
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,0,short,48,0.3125,length_group
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,1,short,48,0.3958333333333333,length_group
+Qwen/Qwen2.5-3B-Instruct,six-shot,0,short,48,0.4375,length_group
+Qwen/Qwen2.5-3B-Instruct,six-shot,1,short,48,0.4583333333333333,length_group
+Qwen/Qwen2.5-3B-Instruct,zero-shot,0,short,48,0.22916666666666666,length_group
+Qwen/Qwen2.5-3B-Instruct,zero-shot,1,short,48,0.4583333333333333,length_group
+Qwen/Qwen3-0.6B,six-shot,0,short,48,0.2708333333333333,length_group
+Qwen/Qwen3-0.6B,six-shot,1,short,48,0.8333333333333334,length_group
+Qwen/Qwen3-0.6B,zero-shot,0,short,48,0.20833333333333334,length_group
+Qwen/Qwen3-0.6B,zero-shot,1,short,48,0.8541666666666666,length_group
+Qwen/Qwen3-1.7B,six-shot,0,short,48,0.16666666666666666,length_group
+Qwen/Qwen3-1.7B,six-shot,1,short,48,0.5625,length_group
+Qwen/Qwen3-1.7B,zero-shot,0,short,48,0.375,length_group
+Qwen/Qwen3-1.7B,zero-shot,1,short,48,0.75,length_group

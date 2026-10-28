@@ -1,0 +1,8 @@
+{
+  "status": "selected",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "mode": "zero-shot",
+  "instruction": 1,
+  "rule": "validation invalid<=5%, F1 within .01 then Brier then latency",
+  "evaluated_models": 8
+}

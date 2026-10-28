@@ -1,0 +1,109 @@
+{
+  "search_date": "2026-10-22",
+  "queries": "(text time series OR vision language OR multimodal fusion) AND forecasting recommendation",
+  "scope": "Targeted primary-source screening with snowballing; not an exhaustive database retrieval",
+  "records": [
+    {
+      "url": "https://arxiv.org/abs/1703.04247",
+      "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2103.00020",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2102.03334",
+      "title": "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.12597",
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2204.14198",
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1912.09363",
+      "title": "Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.01728",
+      "title": "Time-LLM: Time Series Forecasting by Reprogramming Large Language Models",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.13504",
+      "title": "Are Transformers Effective for Time Series Forecasting?",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1606.07792",
+      "title": "Wide & Deep Learning for Recommender Systems",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.02186",
+      "title": "TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1908.07490",
+      "title": "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2201.12086",
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1908.10063",
+      "title": "FinBERT",
+      "decision": "excluded",
+      "reason": "financial sentiment, outside chosen e-commerce task",
+      "stage": "title/topic"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.12002",
+      "title": "XuanYuan 2.0",
+      "decision": "excluded",
+      "reason": "financial model; incorrect candidate for time-series method",
+      "stage": "source verification"
+    }
+  ],
+  "identified": 14,
+  "duplicates_removed": 0,
+  "excluded": 2,
+  "included": 12
+}

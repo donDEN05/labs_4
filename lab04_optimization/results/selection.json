@@ -1,0 +1,5 @@
+{
+  "optimizer": "AdamW",
+  "selected_on": "validation",
+  "rule": "validation mean F1 within .01, then SD then elapsed; <=1 unstable seed"
+}

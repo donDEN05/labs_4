@@ -1,0 +1,46 @@
+{
+  "transactions.rds": {
+    "rows": 1469307,
+    "columns": {
+      "household_id": "str",
+      "store_id": "str",
+      "basket_id": "str",
+      "product_id": "str",
+      "quantity": "float64",
+      "sales_value": "float64",
+      "retail_disc": "float64",
+      "coupon_disc": "float64",
+      "coupon_match_disc": "float64",
+      "week": "int32",
+      "transaction_timestamp": "datetime64[s]"
+    }
+  },
+  "products.rda": {
+    "rows": 92331,
+    "columns": {
+      "product_id": "str",
+      "manufacturer_id": "str",
+      "department": "str",
+      "brand": "category",
+      "product_category": "str",
+      "product_type": "str",
+      "package_size": "str"
+    }
+  },
+  "campaigns.rda": {
+    "rows": 6589,
+    "columns": {
+      "campaign_id": "str",
+      "household_id": "str"
+    }
+  },
+  "coupon_redemptions.rda": {
+    "rows": 2102,
+    "columns": {
+      "household_id": "str",
+      "coupon_upc": "str",
+      "campaign_id": "str",
+      "redemption_date": "object"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "algorithm": "COMA",
+  "seed": 22,
+  "steps": 2000,
+  "elapsed": 0.8170082001015544,
+  "status": "complete",
+  "parameters": 5835,
+  "simulation_only": true
+}

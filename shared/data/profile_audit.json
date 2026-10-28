@@ -1,0 +1,11 @@
+{
+  "unique_texts": 20037,
+  "repeated_text_groups": 2127,
+  "exact_profiles_crossing_parts": 988,
+  "near_test_sample": 500,
+  "near_threshold": 0.97,
+  "near_matches": 397,
+  "near_same_household": 6,
+  "interpretation": "Repeated zero/similar histories can belong to independent households. No future event appears in earlier features; overlap alone is not proof of target leakage.",
+  "limitation": "Near-duplicate check covers a fixed 500-object test sample, not every possible pair."
+}

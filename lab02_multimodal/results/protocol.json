@@ -1,0 +1,37 @@
+{
+  "config": {
+    "schemes": [
+      "text",
+      "numbers",
+      "image",
+      "early",
+      "late",
+      "text_image",
+      "numbers_image",
+      "all"
+    ],
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "steps": 300,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "text_features": 128,
+    "threads": 2,
+    "bootstrap_repeats": 1000,
+    "image_shape": [
+      3,
+      16,
+      16
+    ],
+    "selection": "validation Macro-F1 within 0.01 of best, then mean latency"
+  },
+  "sample_sha256": "5063df19106d13e603a54abd67efa7c48d7dbc95a28216ee310c0105d3200428",
+  "n_train": 46400,
+  "n_validation": 9600,
+  "fit_on": "train only"
+}

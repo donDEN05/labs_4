@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "seed": 11,
+  "elapsed": 0.9319562999298796,
+  "initial_state_hash": "ff997547efb8f9a9c5416c448ecd1910bc8e66d1a0155ffebef1173ac4fa9b95",
+  "batch_order_hash": "7f4580b0c60c30e890014eea7c3c188ac8686c8c1ef0c202ee19bb6180320fb1",
+  "val_macro_f1": 0.6342990158716618,
+  "parameters": 7434,
+  "scheme": "early",
+  "latency_s": 2.2366250050254168e-06,
+  "macro_f1": 0.6342990158716618,
+  "f1_no": 0.9107841974136909,
+  "f1_buy": 0.3578138343296328,
+  "accuracy": 0.8433333333333334,
+  "mcc": 0.3220628921709769,
+  "brier": 0.11713098251091618,
+  "ece": 0.01342625075330334,
+  "confusion": [
+    [
+      7677,
+      266
+    ],
+    [
+      1238,
+      419
+    ]
+  ],
+  "n": 9600
+}

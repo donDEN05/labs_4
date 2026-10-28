@@ -1,0 +1,23 @@
+{
+  "delta": -0.17386489479512734,
+  "ci": [
+    -0.397363031233999,
+    0.03279146459551644
+  ],
+  "p": 0.08591408591408592,
+  "groups": 31,
+  "evaluated_models": 8,
+  "inputs": {
+    "selection.json": "43254e9aa1604d5728557318f2a3931db3aa59d40d97cbe2e4d842c7b7587ae9",
+    "predictions.jsonl": "cd07dcfd0a39d2450d84ebea1ec7ff083e8a45d1252abe44ed4c5784c1c4a852"
+  },
+  "selection": {
+    "status": "selected",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "mode": "zero-shot",
+    "instruction": 1,
+    "rule": "validation invalid<=5%, F1 within .01 then Brier then latency",
+    "evaluated_models": 8
+  },
+  "confirmed_local": false
+}

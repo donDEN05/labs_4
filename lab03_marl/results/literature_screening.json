@@ -1,0 +1,109 @@
+{
+  "search_date": "2026-10-22",
+  "queries": "(cooperative MARL OR CTDE OR credit assignment OR constrained RL) AND coupon pricing; многоагентное обучение с подкреплением",
+  "scope": "Targeted primary-source screening with snowballing; not an exhaustive database retrieval",
+  "records": [
+    {
+      "url": "https://arxiv.org/abs/2406.05987",
+      "title": "Data-Driven Real-time Coupon Allocation in the Online Platform",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1706.05296",
+      "title": "Value-Decomposition Networks For Cooperative Multi-Agent Learning",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v80/rashid18a.html",
+      "title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1905.05408",
+      "title": "QTRAN: Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1705.08926",
+      "title": "Counterfactual Multi-Agent Policy Gradients",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2103.01955",
+      "title": "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1707.06347",
+      "title": "Proximal Policy Optimization Algorithms",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1706.02275",
+      "title": "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1705.10528",
+      "title": "Constrained Policy Optimization",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://web.media.mit.edu/~cynthiab/Readings/tan-MAS-reinfLearn.pdf",
+      "title": "Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://psyjournals.ru/journals/mda/archive/2024_n2/Novikov_Vinogradov",
+      "title": "Опыт использования архитектуры сети Transformer для аппроксимации политики агента в обучении с подкреплением",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF00992698",
+      "title": "Q-learning",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1908.10063",
+      "title": "FinBERT",
+      "decision": "excluded",
+      "reason": "financial sentiment, outside chosen e-commerce task",
+      "stage": "title/topic"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.12002",
+      "title": "XuanYuan 2.0",
+      "decision": "excluded",
+      "reason": "financial model; incorrect candidate for time-series method",
+      "stage": "source verification"
+    }
+  ],
+  "identified": 14,
+  "duplicates_removed": 0,
+  "excluded": 2,
+  "included": 12
+}

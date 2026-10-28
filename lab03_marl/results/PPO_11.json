@@ -1,0 +1,9 @@
+{
+  "algorithm": "PPO",
+  "seed": 11,
+  "steps": 2000,
+  "elapsed": 1.0456864000298083,
+  "status": "complete",
+  "parameters": 8142,
+  "simulation_only": true
+}

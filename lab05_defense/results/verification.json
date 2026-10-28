@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "check": "shared/test_shared.py",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "check": "shared/test_protocol.py",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "check": "shared/audit.py",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "check": "lab01_llm/test_lab.py",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "check": "lab02_multimodal/test_lab.py",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "check": "lab03_marl/test_lab.py",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "check": "lab04_optimization/test_lab.py",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "check": "lab05_defense/test_lab.py",
+      "exit_code": 0,
+      "status": "passed"
+    }
+  ],
+  "all_passed": true,
+  "demo": "passed; offline, zero applied violations and zero real offers",
+  "llm_predictions": 2048,
+  "llm_free_probes": 32,
+  "native_render": "unavailable: soffice.exe/Word renderer absent; structural checks and plot inspection only"
+}

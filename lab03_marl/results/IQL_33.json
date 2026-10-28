@@ -1,0 +1,9 @@
+{
+  "algorithm": "IQL",
+  "seed": 33,
+  "steps": 2000,
+  "elapsed": 0.8001740999752656,
+  "status": "complete",
+  "parameters": 1030,
+  "simulation_only": true
+}

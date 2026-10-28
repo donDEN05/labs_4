@@ -1,0 +1,10 @@
+[
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "status": "failed_native",
+    "exit_code": 3221225477,
+    "phase": "after weight loading, during quantization, before first prediction",
+    "completed_predictions": 0,
+    "resolution": "Lazy module traversal releases old float layers; weak-reference regression RED/GREEN; restarted under unchanged quantization/prompt protocol"
+  }
+]

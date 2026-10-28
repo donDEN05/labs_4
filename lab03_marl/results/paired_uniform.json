@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "selection.json": "38b6cddf12dc3c7dae6df3517a6c3a969fc660aec5e31ddefc189c3cc9b1ec13",
+    "episodes.csv": "10bdae4605ab63aa35711f570fc4226a5834cbd018a849294062d6ee58c5dec3"
+  },
+  "algorithm": "COMA",
+  "mean_difference": 0.06087761687307616,
+  "ci": [
+    -0.16810848521696295,
+    0.31333305380254145
+  ],
+  "bootstrap": "paired two-way seed/scenario resampling",
+  "seeds": 5,
+  "scenarios": 24,
+  "simulation_only": true,
+  "confirmed_local": false
+}

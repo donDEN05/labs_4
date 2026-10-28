@@ -1,0 +1,15 @@
+{
+  "real_world_causal_effect": "not identified",
+  "cost_ratio": "assumed",
+  "response_elasticity": "assumed",
+  "unit_demand": "Bernoulli one unit per category/week",
+  "constraints": "hard budget and margin controller",
+  "selection": "COMA",
+  "limitations": [
+    "short budget, no convergence claim",
+    "grocery-to-ecommerce domain shift",
+    "greedy budget projection can favor category order",
+    "income/demographic attributes excluded",
+    "no online deployment"
+  ]
+}

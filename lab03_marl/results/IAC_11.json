@@ -1,0 +1,9 @@
+{
+  "algorithm": "IAC",
+  "seed": 11,
+  "steps": 2000,
+  "elapsed": 0.7660092000151053,
+  "status": "complete",
+  "parameters": 1030,
+  "simulation_only": true
+}

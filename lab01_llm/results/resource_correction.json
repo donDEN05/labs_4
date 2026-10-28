@@ -1,0 +1,6 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "weight_storage_bytes": 1038786048,
+  "reason": "Initial record counted float parameters only; packed quantized linear weights now explicitly counted",
+  "scope": "metadata only; probabilities and labels unchanged"
+}

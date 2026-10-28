@@ -1,0 +1,16 @@
+{
+  "models": ["Qwen/Qwen2.5-0.5B-Instruct", "Qwen/Qwen2.5-1.5B-Instruct", "Qwen/Qwen2.5-3B-Instruct", "Qwen/Qwen3-0.6B", "Qwen/Qwen3-1.7B", "HuggingFaceTB/SmolLM2-135M-Instruct", "HuggingFaceTB/SmolLM2-360M-Instruct", "HuggingFaceTB/SmolLM2-1.7B-Instruct"],
+  "seed": 11,
+  "validation_n": 16,
+  "test_n": 32,
+  "transfer_n": 16,
+  "max_new_tokens": 24,
+  "max_input_tokens": 1024,
+  "temperature": 0,
+  "shots": 6,
+  "dtype": "dynamic_int8_linear_float32_embedding",
+  "threads": 4,
+  "batch_size": 4,
+  "decoder": "binary digit likelihood in JSON label prefix; free JSON compliance measured separately",
+  "budget_reason": "CPU only, 16 GB RAM; small fixed label-blind sample, sequential inference; wide uncertainty expected."
+}

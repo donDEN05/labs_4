@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "fingerprint": "5a3829c54782e3fa004a07a082bdb37935586270c6173fbdb9f56f4d0b27b1b6",
+  "protocol": {
+    "scheme": "all",
+    "seed": 11,
+    "steps": 2,
+    "optimizer": "RMSprop",
+    "lr": 0.001,
+    "batch_size": 128,
+    "inputs": "1f80d003be22bf276dfd3ce7c9d1d1bbfde88702c88ea84a20e378b0b9a9fa4e",
+    "train": "700a4498438a801b5781533040bce85a20ae4bfe08866f7552ff33e172923b0a",
+    "validation": "0fa8ed3fec0deaf6f72edf4bce4f18a9d588146c0c00737bfdde7dadb6af5b2b",
+    "version": 1
+  },
+  "result": {
+    "status": "complete",
+    "seed": 11,
+    "elapsed": 0.006431099958717823,
+    "initial_state_hash": "be18aeb25566565b9f274c5af5ce266e933876bb674fcd26d59f783890e8780c",
+    "batch_order_hash": "06ccfdb54a975bbf86a4a8a3ef2be7f48cda75b5702c07934860bf51af09eedc",
+    "val_macro_f1": 0.5,
+    "parameters": 1674,
+    "protocol_hash": "5a3829c54782e3fa004a07a082bdb37935586270c6173fbdb9f56f4d0b27b1b6"
+  }
+}

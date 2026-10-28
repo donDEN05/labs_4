@@ -1,0 +1,879 @@
+[
+  {
+    "id": "transformer",
+    "labs": [
+      1
+    ],
+    "authors": "Vaswani et al.",
+    "year": 2017,
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "venue": "NeurIPS 2017",
+    "architecture": "Self-attention encoder–decoder",
+    "data": "WMT translation",
+    "protocol": "Сопоставление моделей машинного перевода",
+    "metrics": "BLEU; стоимость обучения",
+    "code": "https://github.com/tensorflow/tensor2tensor",
+    "limitations": "Перевод, а не персонализированные скидки",
+    "replication": "Обосновать Transformer как архитектуру LLM",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "fewshot",
+    "labs": [
+      1
+    ],
+    "authors": "Brown et al.",
+    "year": 2020,
+    "title": "Language Models are Few-Shot Learners",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "venue": "NeurIPS 2020",
+    "architecture": "Авторегрессионный GPT-3",
+    "data": "Много задач NLP",
+    "protocol": "Zero/one/few-shot без градиентной адаптации",
+    "metrics": "Метрики конкретных NLP-задач",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Масштаб и доступ к весам отличаются от компактных моделей",
+    "replication": "Сравнить zero-shot и six-shot при одинаковых объектах",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "lora",
+    "labs": [
+      1
+    ],
+    "authors": "Hu et al.",
+    "year": 2021,
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "venue": "ICLR 2022",
+    "architecture": "Низкоранговые адаптеры замороженных весов",
+    "data": "NLP adaptation benchmarks",
+    "protocol": "Фиксированная базовая модель; обучение адаптеров",
+    "metrics": "Качество; обучаемые параметры",
+    "code": "https://github.com/microsoft/LoRA",
+    "limitations": "Нужны ресурсы обучения; rank влияет на результат",
+    "replication": "Будущий PEFT против prompting, без обещания прироста",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "qlora",
+    "labs": [
+      1
+    ],
+    "authors": "Dettmers et al.",
+    "year": 2023,
+    "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+    "url": "https://arxiv.org/abs/2305.14314",
+    "venue": "NeurIPS 2023",
+    "architecture": "4-bit NF4 + LoRA",
+    "data": "Instruction tuning corpora",
+    "protocol": "Адаптация квантизованной LLM",
+    "metrics": "Качество; память",
+    "code": "https://github.com/artidoro/qlora",
+    "limitations": "GPU-ориентированный метод; не эквивалент CPU INT8 inference",
+    "replication": "Разделить квантизацию вывода и PEFT",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "qwen25",
+    "labs": [
+      1
+    ],
+    "authors": "Qwen Team",
+    "year": 2024,
+    "title": "Qwen2.5 Technical Report",
+    "url": "https://arxiv.org/abs/2412.15115",
+    "venue": "Препринт / первичный отчёт",
+    "architecture": "Decoder-only LLM; instruction tuning",
+    "data": "Смесь текстовых корпусов",
+    "protocol": "Семейство размеров и бенчмарков",
+    "metrics": "Общие, математические и языковые оценки",
+    "code": "https://github.com/QwenLM/Qwen2.5",
+    "limitations": "Опубликованные оценки не измеряют покупательский спрос",
+    "replication": "Сравнить три доступных размера на одном split",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "qwen3",
+    "labs": [
+      1
+    ],
+    "authors": "Qwen Team",
+    "year": 2025,
+    "title": "Qwen3 Technical Report",
+    "url": "https://arxiv.org/abs/2505.09388",
+    "venue": "Препринт / первичный отчёт",
+    "architecture": "Dense/MoE; thinking и non-thinking",
+    "data": "Многоязычные корпусы",
+    "protocol": "Оценка семейства моделей",
+    "metrics": "Рассуждение; знания; языковые задачи",
+    "code": "https://github.com/QwenLM/Qwen3",
+    "limitations": "Режим thinking меняет бюджет",
+    "replication": "Фиксировать non-thinking и один формат ответа",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "smollm",
+    "labs": [
+      1
+    ],
+    "authors": "Ben Allal et al.",
+    "year": 2025,
+    "title": "SmolLM2: When Smol Goes Big",
+    "url": "https://arxiv.org/abs/2502.02737",
+    "venue": "Препринт / первичный отчёт",
+    "architecture": "Компактные decoder-only LLM",
+    "data": "Курируемые смеси обучающих текстов",
+    "protocol": "Сравнение компактных моделей и данных",
+    "metrics": "NLP benchmarks; размер",
+    "code": "https://github.com/huggingface/smollm",
+    "limitations": "Компактность не гарантирует следование JSON-инструкции",
+    "replication": "Измерить качество и невалидность трёх размеров",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gigachat",
+    "labs": [
+      1
+    ],
+    "authors": "GigaChat Team",
+    "year": 2025,
+    "title": "GigaChat Family: Efficient Russian Language Modeling Through Mixture of Experts Architecture",
+    "url": "https://arxiv.org/abs/2506.09440",
+    "venue": "ACL 2025 System Demonstrations; отечественная разработка",
+    "architecture": "Mixture of Experts",
+    "data": "Русскоязычные и многоязычные корпуса",
+    "protocol": "Предобучение и оценки семейства",
+    "metrics": "Языковые benchmark-метрики",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Русский язык не доказывает преимущество на английском retail",
+    "replication": "Обосновать отдельный будущий русскоязычный перенос",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "vikhr",
+    "labs": [
+      1
+    ],
+    "authors": "Nikolich et al.",
+    "year": 2024,
+    "title": "Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian",
+    "url": "https://arxiv.org/abs/2405.13929",
+    "venue": "Первичный отчёт; отечественная разработка",
+    "architecture": "Адаптация токенизатора и instruction tuning",
+    "data": "Русскоязычные instruction-наборы",
+    "protocol": "Сопоставление русского instruction following",
+    "metrics": "Языковое качество",
+    "code": "https://github.com/VikhrModels",
+    "limitations": "Актуальная версия препринта отличается от первой",
+    "replication": "Не переносить выводы на retail без теста",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "p5",
+    "labs": [
+      1,
+      2
+    ],
+    "authors": "Geng et al.",
+    "year": 2022,
+    "title": "Recommendation as Language Processing: P5",
+    "url": "https://arxiv.org/abs/2203.13366",
+    "venue": "RecSys 2022",
+    "architecture": "Единый text-to-text рекомендатель",
+    "data": "Пользовательские взаимодействия и отзывы",
+    "protocol": "Разные рекомендательные задачи в одном формате",
+    "metrics": "Ранжирование; ошибки рейтинга; генерация",
+    "code": "https://github.com/jeykigung/P5",
+    "limitations": "Рекомендация товара не равна причинной оценке скидки",
+    "replication": "Текстуализировать историю, не выдумывать отзывы",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "coupon",
+    "labs": [
+      1,
+      3
+    ],
+    "authors": "Dai et al.",
+    "year": 2024,
+    "title": "Data-Driven Real-time Coupon Allocation in the Online Platform",
+    "url": "https://arxiv.org/abs/2406.05987",
+    "venue": "Препринт / первичный отчёт",
+    "architecture": "CVR-предиктор + dual-оптимизация + контроль",
+    "data": "Платформенные наблюдения и полевые эксперименты",
+    "protocol": "Распределение купонов при бюджете",
+    "metrics": "Конверсия; выручка; выполнение бюджета",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Проприетарная среда не доступна для прямой репликации",
+    "replication": "Отделить прогноз, выбор скидки и бюджетный контроллер",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "deepfm",
+    "labs": [
+      1,
+      2
+    ],
+    "authors": "Guo et al.",
+    "year": 2017,
+    "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+    "url": "https://arxiv.org/abs/1703.04247",
+    "venue": "IJCAI 2017",
+    "architecture": "FM + глубокая сеть",
+    "data": "Рекламные CTR-наборы",
+    "protocol": "Сопоставление взаимодействий признаков",
+    "metrics": "AUC; log loss",
+    "code": "https://github.com/ChenglongChen/tensorflow-DeepFM",
+    "limitations": "Клик не равен покупке или инкрементальной прибыли",
+    "replication": "Сильный табличный baseline перед усложнением fusion",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "clip",
+    "labs": [
+      2
+    ],
+    "authors": "Radford et al.",
+    "year": 2021,
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "url": "https://arxiv.org/abs/2103.00020",
+    "venue": "ICML 2021",
+    "architecture": "Контрастивные текстовый и визуальный кодировщики",
+    "data": "Web image–text pairs",
+    "protocol": "Предобучение, zero-shot классификация",
+    "metrics": "Accuracy на визуальных benchmark",
+    "code": "https://github.com/openai/CLIP",
+    "limitations": "Фотографии и график продаж имеют разные распределения",
+    "replication": "Проверять отдельный image-only baseline",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "vilt",
+    "labs": [
+      2
+    ],
+    "authors": "Kim et al.",
+    "year": 2021,
+    "title": "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+    "url": "https://arxiv.org/abs/2102.03334",
+    "venue": "ICML 2021",
+    "architecture": "Совместный Transformer для patch/text",
+    "data": "Vision-language corpora",
+    "protocol": "Предобучение и VQA/retrieval",
+    "metrics": "VQA accuracy; retrieval",
+    "code": "https://github.com/dandelin/ViLT",
+    "limitations": "Не доказывает пользу производного изображения ряда",
+    "replication": "Сравнить раннее слияние с отдельными кодировщиками",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "blip2",
+    "labs": [
+      2
+    ],
+    "authors": "Li et al.",
+    "year": 2023,
+    "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+    "url": "https://arxiv.org/abs/2301.12597",
+    "venue": "ICML 2023",
+    "architecture": "Q-Former между замороженными моделями",
+    "data": "Image–text corpora",
+    "protocol": "Предобучение, zero-shot VQA",
+    "metrics": "VQA; caption/retrieval scores",
+    "code": "https://github.com/salesforce/LAVIS",
+    "limitations": "Стоимость и предметный сдвиг сохраняются",
+    "replication": "Обосновать компактный мост модальностей",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "flamingo",
+    "labs": [
+      2
+    ],
+    "authors": "Alayrac et al.",
+    "year": 2022,
+    "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+    "url": "https://arxiv.org/abs/2204.14198",
+    "venue": "NeurIPS 2022",
+    "architecture": "Cross-attention и визуальный resampler",
+    "data": "Перемежающиеся изображения и текст",
+    "protocol": "Few-shot vision-language задачи",
+    "metrics": "VQA; captioning; few-shot quality",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Закрытые большие обучающие ресурсы",
+    "replication": "Проверить одинаковый бюджет и пропуск модальности",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "tft",
+    "labs": [
+      2
+    ],
+    "authors": "Lim et al.",
+    "year": 2019,
+    "title": "Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting",
+    "url": "https://arxiv.org/abs/1912.09363",
+    "venue": "International Journal of Forecasting 2021",
+    "architecture": "Variable selection + temporal attention",
+    "data": "Наборы многогоризонтного прогноза",
+    "protocol": "Известные будущие и прошлые ковариаты разделены",
+    "metrics": "Quantile loss",
+    "code": "https://github.com/google-research/google-research/tree/master/tft",
+    "limitations": "Известные будущие признаки нельзя имитировать будущими покупками",
+    "replication": "Проверять доступность каждой ковариаты во времени",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "timellm",
+    "labs": [
+      2
+    ],
+    "authors": "Jin et al.",
+    "year": 2023,
+    "title": "Time-LLM: Time Series Forecasting by Reprogramming Large Language Models",
+    "url": "https://arxiv.org/abs/2310.01728",
+    "venue": "ICLR 2024",
+    "architecture": "Перепрограммирование ряда в LLM",
+    "data": "Time-series forecasting benchmarks",
+    "protocol": "Фиксированные горизонты и split",
+    "metrics": "MSE; MAE",
+    "code": "https://github.com/KimMeen/Time-LLM",
+    "limitations": "Более дорогая модель может проиграть простому baseline",
+    "replication": "Сравнить текстовую историю с числовым MLP",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "linear",
+    "labs": [
+      2
+    ],
+    "authors": "Zeng et al.",
+    "year": 2022,
+    "title": "Are Transformers Effective for Time Series Forecasting?",
+    "url": "https://arxiv.org/abs/2205.13504",
+    "venue": "AAAI 2023",
+    "architecture": "Простые линейные временные модели",
+    "data": "Long-term time-series benchmarks",
+    "protocol": "Единый прогнозный протокол",
+    "metrics": "MSE; MAE",
+    "code": "https://github.com/cure-lab/LTSF-Linear",
+    "limitations": "Результат временного прогноза не переносится на скидки автоматически",
+    "replication": "Обязательный числовой baseline",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "wide",
+    "labs": [
+      2
+    ],
+    "authors": "Cheng et al.",
+    "year": 2016,
+    "title": "Wide & Deep Learning for Recommender Systems",
+    "url": "https://arxiv.org/abs/1606.07792",
+    "venue": "DLRS 2016",
+    "architecture": "Линейная и глубокая ветви",
+    "data": "Платформенные рекомендации приложений",
+    "protocol": "Обучение и онлайн-оценка рекомендаций",
+    "metrics": "Offline/online recommendation quality",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Производственный онлайн-эффект не воспроизводим на открытом retail",
+    "replication": "Сравнить простое слияние с тяжёлой архитектурой",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "timesnet",
+    "labs": [
+      2
+    ],
+    "authors": "Wu et al.",
+    "year": 2022,
+    "title": "TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis",
+    "url": "https://arxiv.org/abs/2210.02186",
+    "venue": "ICLR 2023",
+    "architecture": "Преобразование периодов в 2D",
+    "data": "Временные ряды нескольких задач",
+    "protocol": "Прогноз, классификация, аномалии",
+    "metrics": "MSE; MAE; task metrics",
+    "code": "https://github.com/thuml/TimesNet",
+    "limitations": "Четырёх точек недостаточно для богатой периодичности",
+    "replication": "Не приписывать маленькому графику новые сведения",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "lxmert",
+    "labs": [
+      2
+    ],
+    "authors": "Tan and Bansal",
+    "year": 2019,
+    "title": "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+    "url": "https://arxiv.org/abs/1908.07490",
+    "venue": "EMNLP 2019",
+    "architecture": "Раздельные и cross-modality кодировщики",
+    "data": "Vision-language corpora",
+    "protocol": "VQA/GQA/NLVR2 fine-tuning",
+    "metrics": "Accuracy",
+    "code": "https://github.com/airsplay/lxmert",
+    "limitations": "Визуальное grounding отсутствует в графике продаж",
+    "replication": "Сопоставить раздельное и совместное слияние",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "blip",
+    "labs": [
+      2
+    ],
+    "authors": "Li et al.",
+    "year": 2022,
+    "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+    "url": "https://arxiv.org/abs/2201.12086",
+    "venue": "ICML 2022",
+    "architecture": "Фильтрация/captioning и multimodal encoder-decoder",
+    "data": "Шумные image–text пары",
+    "protocol": "Предобучение и transfer",
+    "metrics": "Retrieval; captioning; VQA",
+    "code": "https://github.com/salesforce/BLIP",
+    "limitations": "Шум синхронизации может быть важнее fusion",
+    "replication": "Вести журнал исключённых пар",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "vdn",
+    "labs": [
+      3
+    ],
+    "authors": "Sunehag et al.",
+    "year": 2017,
+    "title": "Value-Decomposition Networks For Cooperative Multi-Agent Learning",
+    "url": "https://arxiv.org/abs/1706.05296",
+    "venue": "AAMAS 2018",
+    "architecture": "Сумма локальных Q-функций",
+    "data": "Кооперативные игровые среды",
+    "protocol": "Общая награда, децентрализованные действия",
+    "metrics": "Team return",
+    "code": "https://github.com/oxwhirl/pymarl",
+    "limitations": "Аддитивность ограничивает взаимодействия",
+    "replication": "Сравнить VDN с IQL при общем бюджете",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "qmix",
+    "labs": [
+      3
+    ],
+    "authors": "Rashid et al.",
+    "year": 2018,
+    "title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+    "url": "https://proceedings.mlr.press/v80/rashid18a.html",
+    "venue": "ICML 2018",
+    "architecture": "Монотонный state-conditioned mixer",
+    "data": "Кооперативные задачи StarCraft",
+    "protocol": "CTDE с локальным исполнением",
+    "metrics": "Team win rate/return",
+    "code": "https://github.com/oxwhirl/pymarl",
+    "limitations": "Не все взаимодействия категорий монотонны",
+    "replication": "Проверить неотрицательные веса mixer",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "qtran",
+    "labs": [
+      3
+    ],
+    "authors": "Son et al.",
+    "year": 2019,
+    "title": "QTRAN: Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning",
+    "url": "https://arxiv.org/abs/1905.05408",
+    "venue": "ICML 2019",
+    "architecture": "Joint-Q + оптимальные/неоптимальные ограничения",
+    "data": "Кооперативные среды",
+    "protocol": "TD и трансформационные потери",
+    "metrics": "Team return",
+    "code": "https://github.com/hostyle123/QTRAN",
+    "limitations": "Дополнительные ограничения усложняют оптимизацию",
+    "replication": "Сохранять TD/constraint losses и неудачи",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "coma",
+    "labs": [
+      3
+    ],
+    "authors": "Foerster et al.",
+    "year": 2017,
+    "title": "Counterfactual Multi-Agent Policy Gradients",
+    "url": "https://arxiv.org/abs/1705.08926",
+    "venue": "AAAI 2018",
+    "architecture": "Центральный action-conditioned critic",
+    "data": "Кооперативные игровые задачи",
+    "protocol": "Counterfactual baseline при общей награде",
+    "metrics": "Team return/win rate",
+    "code": "https://github.com/oxwhirl/pymarl",
+    "limitations": "Critic требует глобального состояния при обучении",
+    "replication": "Обнулить действие текущего агента во входе critic",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "mappo",
+    "labs": [
+      3
+    ],
+    "authors": "Yu et al.",
+    "year": 2021,
+    "title": "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games",
+    "url": "https://arxiv.org/abs/2103.01955",
+    "venue": "NeurIPS 2022",
+    "architecture": "PPO с централизованной value-функцией",
+    "data": "SMAC, MPE, Hanabi",
+    "protocol": "Контролируемое сравнение cooperative MARL",
+    "metrics": "Team return; sample efficiency",
+    "code": "https://github.com/marlbenchmark/on-policy",
+    "limitations": "Чувствителен к деталям обучения и масштабу reward",
+    "replication": "Сравнить с IPPO при том же rollout-бюджете",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "ppo",
+    "labs": [
+      3
+    ],
+    "authors": "Schulman et al.",
+    "year": 2017,
+    "title": "Proximal Policy Optimization Algorithms",
+    "url": "https://arxiv.org/abs/1707.06347",
+    "venue": "Препринт / первичный отчёт",
+    "architecture": "Clipped policy-gradient objective",
+    "data": "Наборы задач управления",
+    "protocol": "On-policy rollout; несколько эпох",
+    "metrics": "Return; sample efficiency",
+    "code": "https://github.com/openai/baselines",
+    "limitations": "Многократное использование off-policy данных недопустимо",
+    "replication": "Отдельный централизованный PPO baseline",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "maddpg",
+    "labs": [
+      3
+    ],
+    "authors": "Lowe et al.",
+    "year": 2017,
+    "title": "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments",
+    "url": "https://arxiv.org/abs/1706.02275",
+    "venue": "NeurIPS 2017",
+    "architecture": "Центральный critic, локальные actors",
+    "data": "Multi-agent particle environments",
+    "protocol": "CTDE cooperative/competitive",
+    "metrics": "Вознаграждение агентов",
+    "code": "https://github.com/openai/maddpg",
+    "limitations": "Непрерывные действия отличаются от сетки скидок",
+    "replication": "Обосновать границу локального исполнения",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "cpo",
+    "labs": [
+      3
+    ],
+    "authors": "Achiam et al.",
+    "year": 2017,
+    "title": "Constrained Policy Optimization",
+    "url": "https://arxiv.org/abs/1705.10528",
+    "venue": "ICML 2017",
+    "architecture": "Policy optimization с ограничением стоимости",
+    "data": "Constrained control tasks",
+    "protocol": "Reward и constraint отдельно",
+    "metrics": "Return; constraint cost",
+    "code": "https://github.com/jachiam/cpo",
+    "limitations": "Ожидаемое ограничение не равно жёсткому лимиту каждой сделки",
+    "replication": "Сохранить внешний жёсткий контроллер",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "tan",
+    "labs": [
+      3
+    ],
+    "authors": "Ming Tan",
+    "year": 1993,
+    "title": "Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents",
+    "url": "https://web.media.mit.edu/~cynthiab/Readings/tan-MAS-reinfLearn.pdf",
+    "venue": "ICML 1993",
+    "architecture": "Независимые и кооперативные Q-агенты",
+    "data": "Многоагентные задачи обучения",
+    "protocol": "Обмен опытом против независимого обучения",
+    "metrics": "Скорость и результат обучения",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Небольшие среды не доказывают эффект в торговле",
+    "replication": "IQL как контроль отсутствия координации",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "ru_rl",
+    "labs": [
+      3
+    ],
+    "authors": "Новиков Н.П., Виноградов В.И.",
+    "year": 2024,
+    "title": "Опыт использования архитектуры сети Transformer для аппроксимации политики агента в обучении с подкреплением",
+    "url": "https://psyjournals.ru/journals/mda/archive/2024_n2/Novikov_Vinogradov",
+    "venue": "Моделирование и анализ данных 14(2), 7–22; отечественная работа",
+    "architecture": "Transformer для аппроксимации политики",
+    "data": "Задачи RL, описанные авторами",
+    "protocol": "Сравнение архитектур политики",
+    "metrics": "Вознаграждение в исходных средах",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Не является экспериментом персонализированных скидок",
+    "replication": "Отечественный контекст; не смешивать RL и доказательство MARL-эффекта",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "watkins",
+    "labs": [
+      3
+    ],
+    "authors": "Watkins and Dayan",
+    "year": 1992,
+    "title": "Q-learning",
+    "url": "https://link.springer.com/article/10.1007/BF00992698",
+    "venue": "Machine Learning 8, 279–292",
+    "architecture": "Табличное Q-learning",
+    "data": "Марковские задачи принятия решений",
+    "protocol": "Теорема при предпосылках стационарности",
+    "metrics": "Сходимость Q",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Теория табличной стационарной среды не гарантирует neural MARL",
+    "replication": "Явно ограничить выводы о сходимости",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "robbins",
+    "labs": [
+      4
+    ],
+    "authors": "Robbins and Monro",
+    "year": 1951,
+    "title": "A Stochastic Approximation Method",
+    "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full",
+    "venue": "Annals of Mathematical Statistics",
+    "architecture": "Стохастическая аппроксимация",
+    "data": "Теоретическая постановка",
+    "protocol": "Условия на шум и шаг",
+    "metrics": "Асимптотическая сходимость",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Нужны предпосылки, не доказанные для retail neural model",
+    "replication": "Разделить теорию и локальный эксперимент",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "polyak",
+    "labs": [
+      4
+    ],
+    "authors": "Поляк Б.Т.",
+    "year": 1964,
+    "title": "О некоторых способах ускорения сходимости итерационных методов",
+    "url": "https://www.mathnet.ru/rus/zvmmf7713",
+    "venue": "ЖВМиМФ 4(5), 791–803; отечественная работа",
+    "architecture": "Метод тяжёлого шарика",
+    "data": "Теоретические задачи минимизации",
+    "protocol": "Анализ ускорения итераций",
+    "metrics": "Скорость сходимости",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Детерминированная теория не гарантирует преимущества SGD momentum",
+    "replication": "Включить SGD с momentum",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "nesterov",
+    "labs": [
+      4
+    ],
+    "authors": "Нестеров Ю.Е.",
+    "year": 1983,
+    "title": "Метод решения задачи выпуклого программирования со скоростью сходимости O(1/k²)",
+    "url": "https://www.mathnet.ru/rus/dan46009",
+    "venue": "Доклады АН СССР 269(3), 543–547; отечественная работа",
+    "architecture": "Ускоренный градиентный метод",
+    "data": "Гладкая выпуклая оптимизация",
+    "protocol": "Теоретическая оценка",
+    "metrics": "O(1/k²)",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Модель лабораторной невыпукла",
+    "replication": "Измерить Nesterov эмпирически, без переноса теоремы",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "adagrad",
+    "labs": [
+      4
+    ],
+    "authors": "Duchi, Hazan, Singer",
+    "year": 2011,
+    "title": "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization",
+    "url": "https://jmlr.org/papers/v12/duchi11a.html",
+    "venue": "JMLR 12",
+    "architecture": "Накопление квадратов градиента",
+    "data": "Online/стохастическая оптимизация",
+    "protocol": "Теория и эмпирическое сравнение",
+    "metrics": "Regret; loss",
+    "code": "https://docs.pytorch.org/docs/stable/generated/torch.optim.Adagrad.html",
+    "limitations": "Шаг может быстро уменьшаться",
+    "replication": "Проверить общую LR-сетку и кривые",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "rmsprop",
+    "labs": [
+      4
+    ],
+    "authors": "Tieleman and Hinton",
+    "year": 2012,
+    "title": "Neural Networks for Machine Learning, Lecture 6e: RMSProp",
+    "url": "https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf",
+    "venue": "Первичный лекционный материал",
+    "architecture": "Экспоненциальное среднее квадратов градиента",
+    "data": "Авторская лекция",
+    "protocol": "Описание алгоритма, не журнальная статья",
+    "metrics": "Loss; устойчивость шага",
+    "code": "https://docs.pytorch.org/docs/stable/generated/torch.optim.RMSprop.html",
+    "limitations": "Первичный лекционный источник без рецензирования",
+    "replication": "Не приписывать RMSProp несуществующую публикацию",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "adadelta",
+    "labs": [
+      4
+    ],
+    "authors": "Zeiler",
+    "year": 2012,
+    "title": "ADADELTA: An Adaptive Learning Rate Method",
+    "url": "https://arxiv.org/abs/1212.5701",
+    "venue": "Препринт / первичный отчёт",
+    "architecture": "Адаптивный масштаб обновлений",
+    "data": "Обучение нейронных сетей",
+    "protocol": "Сравнение адаптивных шагов",
+    "metrics": "Loss; task quality",
+    "code": "https://docs.pytorch.org/docs/stable/generated/torch.optim.Adadelta.html",
+    "limitations": "Общая узкая LR-сетка может быть невыгодна Adadelta",
+    "replication": "Оговорить потолок равного tuning-бюджета",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "adam",
+    "labs": [
+      4
+    ],
+    "authors": "Kingma and Ba",
+    "year": 2014,
+    "title": "Adam: A Method for Stochastic Optimization",
+    "url": "https://arxiv.org/abs/1412.6980",
+    "venue": "ICLR 2015",
+    "architecture": "Первый/второй момент градиента",
+    "data": "Оптимизация ML-моделей",
+    "protocol": "Теория и эксперименты",
+    "metrics": "Loss; скорость обучения",
+    "code": "https://docs.pytorch.org/docs/stable/generated/torch.optim.Adam.html",
+    "limitations": "Универсальное превосходство не доказано",
+    "replication": "Сравнить на общей инициализации",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "adamw",
+    "labs": [
+      4
+    ],
+    "authors": "Loshchilov and Hutter",
+    "year": 2017,
+    "title": "Decoupled Weight Decay Regularization",
+    "url": "https://arxiv.org/abs/1711.05101",
+    "venue": "ICLR 2019",
+    "architecture": "Отделённый weight decay",
+    "data": "Нейросетевые benchmark",
+    "protocol": "Adam с L2 против decoupled decay",
+    "metrics": "Generalization quality",
+    "code": "https://docs.pytorch.org/docs/stable/generated/torch.optim.AdamW.html",
+    "limitations": "Эффект зависит от regularization и tuning",
+    "replication": "Указать фактический weight decay штатного AdamW",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "sgdnoise",
+    "labs": [
+      4
+    ],
+    "authors": "Smith, Elsen, De",
+    "year": 2020,
+    "title": "On the Generalization Benefit of Noise in Stochastic Gradient Descent",
+    "url": "https://proceedings.mlr.press/v119/smith20a.html",
+    "venue": "ICML 2020",
+    "architecture": "Анализ шума mini-batch SGD",
+    "data": "Нейросетевые задачи",
+    "protocol": "Batch size и learning rate контролируются",
+    "metrics": "Test quality; convergence",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Нельзя считать любой шум полезным",
+    "replication": "Оценить дисперсию градиента и менять один фактор",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "highprob",
+    "labs": [
+      4
+    ],
+    "authors": "Liu et al.",
+    "year": 2023,
+    "title": "High Probability Convergence of Stochastic Gradient Methods",
+    "url": "https://proceedings.mlr.press/v202/liu23aa.html",
+    "venue": "ICML 2023",
+    "architecture": "Высоковероятностный анализ",
+    "data": "Выпуклая/невыпуклая оптимизация",
+    "protocol": "Предположение sub-Gaussian шума",
+    "metrics": "Вероятностные границы сходимости",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Предпосылка шума не установлена по одному графику",
+    "replication": "Эмпирические CI не называть теоретической гарантией",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "markov",
+    "labs": [
+      4
+    ],
+    "authors": "Even",
+    "year": 2023,
+    "title": "Stochastic Gradient Descent under Markovian Sampling Schemes",
+    "url": "https://proceedings.mlr.press/v202/even23a.html",
+    "venue": "ICML 2023",
+    "architecture": "SGD при марковском сэмплировании",
+    "data": "Теоретические марковские схемы",
+    "protocol": "Скорость сходимости с зависимыми выборками",
+    "metrics": "Bounds; variance reduction",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Матрица режимов спроса не равна схеме градиентного сэмплирования",
+    "replication": "Разделить covariate stress и теорию Markov SGD",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "doan",
+    "labs": [
+      4
+    ],
+    "authors": "Doan et al.",
+    "year": 2020,
+    "title": "Finite-Time Analysis of Stochastic Gradient Descent under Markov Randomness",
+    "url": "https://arxiv.org/abs/2003.10973",
+    "venue": "Препринт / первичный отчёт",
+    "architecture": "SGD с зависимым марковским шумом",
+    "data": "Теоретическая постановка",
+    "protocol": "Finite-time анализ",
+    "metrics": "Скорость сходимости",
+    "code": "Не заявлен в проверенной карточке",
+    "limitations": "Нужны условия перемешивания цепи",
+    "replication": "Не использовать iid-bootstrap для зависимых недель",
+    "checked": "2026-10-22"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "scheme": "early",
+  "rule": "validation Macro-F1 within 0.01 of best, then mean latency",
+  "selected_on": "validation",
+  "evaluated_schemes": 8
+}

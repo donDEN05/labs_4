@@ -1,0 +1,21 @@
+{
+ "algorithms": ["IQL","VDN","QMIX","IAC","IPPO","MAPPO","COMA","QTRAN"],
+ "baselines": ["Uniform","PPO"],
+ "seeds": [11,22,33,44,55],
+ "steps": 2000,
+ "gamma": 0.95,
+ "learning_rate": 0.001,
+ "batch_size": 64,
+ "hidden": 32,
+ "threads": 2,
+ "discounts": [0,0.05,0.1,0.15,0.2],
+ "episode_budget": 5.0,
+ "cost_ratio": 0.6,
+ "minimum_margin_ratio": 0.1,
+ "elasticity": 1.2,
+ "substitution": 0.25,
+ "validation_episodes": 12,
+ "test_episodes": 24,
+ "stress": ["low_demand","low_elasticity","high_cost","markov_switching"],
+ "simulation_only": true
+}

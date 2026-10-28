@@ -1,0 +1,9 @@
+optimizer,parameter_bytes,gradient_bytes,optimizer_state_bytes,total_tensor_bytes,scope,profile_lr,profile_seed,profile_steps
+SGD,29736,11016,0,40752,one real update on seed-11 checkpoint; storage shapes verified for all five seeds; excludes activations/runtime/RSS,0.001,11,1
+Momentum,29736,11016,11016,51768,one real update on seed-11 checkpoint; storage shapes verified for all five seeds; excludes activations/runtime/RSS,0.001,11,1
+Nesterov,29736,11016,11016,51768,one real update on seed-11 checkpoint; storage shapes verified for all five seeds; excludes activations/runtime/RSS,0.001,11,1
+Adagrad,29736,11016,29816,70568,one real update on seed-11 checkpoint; storage shapes verified for all five seeds; excludes activations/runtime/RSS,0.001,11,1
+RMSprop,29736,11016,11056,51808,one real update on seed-11 checkpoint; storage shapes verified for all five seeds; excludes activations/runtime/RSS,0.001,11,1
+Adam,29736,11016,22072,62824,one real update on seed-11 checkpoint; storage shapes verified for all five seeds; excludes activations/runtime/RSS,0.001,11,1
+AdamW,29736,11016,22072,62824,one real update on seed-11 checkpoint; storage shapes verified for all five seeds; excludes activations/runtime/RSS,0.001,11,1
+Adadelta,29736,11016,22072,62824,one real update on seed-11 checkpoint; storage shapes verified for all five seeds; excludes activations/runtime/RSS,0.001,11,1

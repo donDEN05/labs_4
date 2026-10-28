@@ -1,0 +1,191 @@
+{
+  "topic": "Разработка многоагентной системы персонализированного управления скидками в электронной коммерции",
+  "date": "2026-10-22",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "data_revision": "5b5d06192b9856edd04e4d405787af2f2e4a1fef",
+  "data_hash": "5063df19106d13e603a54abd67efa7c48d7dbc95a28216ee310c0105d3200428",
+  "configs": {
+    "lab01_llm": {
+      "models": [
+        "Qwen/Qwen2.5-0.5B-Instruct",
+        "Qwen/Qwen2.5-1.5B-Instruct",
+        "Qwen/Qwen2.5-3B-Instruct",
+        "Qwen/Qwen3-0.6B",
+        "Qwen/Qwen3-1.7B",
+        "HuggingFaceTB/SmolLM2-135M-Instruct",
+        "HuggingFaceTB/SmolLM2-360M-Instruct",
+        "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+      ],
+      "seed": 11,
+      "validation_n": 16,
+      "test_n": 32,
+      "transfer_n": 16,
+      "max_new_tokens": 24,
+      "max_input_tokens": 1024,
+      "temperature": 0,
+      "shots": 6,
+      "dtype": "dynamic_int8_linear_float32_embedding",
+      "threads": 4,
+      "batch_size": 4,
+      "decoder": "binary digit likelihood in JSON label prefix; free JSON compliance measured separately",
+      "budget_reason": "CPU only, 16 GB RAM; small fixed label-blind sample, sequential inference; wide uncertainty expected."
+    },
+    "lab02_multimodal": {
+      "schemes": [
+        "text",
+        "numbers",
+        "image",
+        "early",
+        "late",
+        "text_image",
+        "numbers_image",
+        "all"
+      ],
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "steps": 300,
+      "batch_size": 128,
+      "learning_rate": 0.001,
+      "text_features": 128,
+      "threads": 2,
+      "bootstrap_repeats": 1000,
+      "image_shape": [
+        3,
+        16,
+        16
+      ],
+      "selection": "validation Macro-F1 within 0.01 of best, then mean latency"
+    },
+    "lab03_marl": {
+      "algorithms": [
+        "IQL",
+        "VDN",
+        "QMIX",
+        "IAC",
+        "IPPO",
+        "MAPPO",
+        "COMA",
+        "QTRAN"
+      ],
+      "baselines": [
+        "Uniform",
+        "PPO"
+      ],
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "steps": 2000,
+      "gamma": 0.95,
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "hidden": 32,
+      "threads": 2,
+      "discounts": [
+        0,
+        0.05,
+        0.1,
+        0.15,
+        0.2
+      ],
+      "episode_budget": 5.0,
+      "cost_ratio": 0.6,
+      "minimum_margin_ratio": 0.1,
+      "elasticity": 1.2,
+      "substitution": 0.25,
+      "validation_episodes": 12,
+      "test_episodes": 24,
+      "stress": [
+        "low_demand",
+        "low_elasticity",
+        "high_cost",
+        "markov_switching"
+      ],
+      "simulation_only": true
+    },
+    "lab04_optimization": {
+      "optimizers": [
+        "SGD",
+        "Momentum",
+        "Nesterov",
+        "Adagrad",
+        "RMSprop",
+        "Adam",
+        "AdamW",
+        "Adadelta"
+      ],
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "learning_rates": [
+        0.0001,
+        0.001,
+        0.01
+      ],
+      "steps": 300,
+      "batch_size": 128,
+      "scheduler": "constant",
+      "threads": 2,
+      "target_validation_f1": 0.65,
+      "bootstrap_repeats": 1000,
+      "markov_transition": [
+        [
+          0.85,
+          0.15
+        ],
+        [
+          0.3,
+          0.7
+        ]
+      ],
+      "selection": "validation mean F1 within .01, then SD then elapsed; <=1 unstable seed"
+    }
+  },
+  "selection": {
+    "lab01_llm": {
+      "status": "selected",
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "mode": "zero-shot",
+      "instruction": 1,
+      "rule": "validation invalid<=5%, F1 within .01 then Brier then latency",
+      "evaluated_models": 8
+    },
+    "lab02_multimodal": {
+      "scheme": "early",
+      "rule": "validation Macro-F1 within 0.01 of best, then mean latency",
+      "selected_on": "validation",
+      "evaluated_schemes": 8
+    },
+    "lab03_marl": {
+      "algorithm": "COMA",
+      "selected_on": "validation",
+      "rule": "zero applied violations, mean profit CI overlap then lower SD",
+      "simulation_only": true
+    },
+    "lab04_optimization": {
+      "optimizer": "AdamW",
+      "selected_on": "validation",
+      "rule": "validation mean F1 within .01, then SD then elapsed; <=1 unstable seed"
+    }
+  },
+  "code_validation": "eight runnable checks plus offline demo; final results recorded in verification.json",
+  "render_validation": "Native Word/PowerPoint renderer unavailable on this Windows host; structural checks and source plots only"
+}

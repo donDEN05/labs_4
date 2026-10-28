@@ -1,0 +1,9 @@
+{
+  "block_weeks": 2,
+  "blocks": 3,
+  "ci": [
+    0.6175382439290038,
+    0.6417375727720556
+  ],
+  "warning": "Only six test weeks; few temporal blocks, uncertain interval"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "fingerprint": "5e78a327ac1a04e57e854593225e2a605d60f6745de8751c1a270486b0aa52b1",
+  "protocol": {
+    "scheme": "all",
+    "seed": 22,
+    "steps": 2,
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "batch_size": 128,
+    "inputs": "1f80d003be22bf276dfd3ce7c9d1d1bbfde88702c88ea84a20e378b0b9a9fa4e",
+    "train": "700a4498438a801b5781533040bce85a20ae4bfe08866f7552ff33e172923b0a",
+    "validation": "0fa8ed3fec0deaf6f72edf4bce4f18a9d588146c0c00737bfdde7dadb6af5b2b",
+    "version": 1
+  },
+  "result": {
+    "status": "complete",
+    "seed": 22,
+    "elapsed": 0.006530500017106533,
+    "initial_state_hash": "de268a70abb9775f55c330fad9dada8e06fcf1572a6dd7aeef9a8ac8aebd92b3",
+    "batch_order_hash": "d0b43bca14c3da5b456b73c10e69ed97768a22680eedd20b5ef6d9b86396833f",
+    "val_macro_f1": 0.7333333333333334,
+    "parameters": 1674,
+    "protocol_hash": "5e78a327ac1a04e57e854593225e2a605d60f6745de8751c1a270486b0aa52b1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "algorithm": "QTRAN",
+  "seed": 55,
+  "steps": 2000,
+  "elapsed": 1.2111364000011235,
+  "status": "complete",
+  "parameters": 8584,
+  "simulation_only": true
+}

@@ -1,0 +1,46 @@
+{
+  "config": {
+    "optimizers": [
+      "SGD",
+      "Momentum",
+      "Nesterov",
+      "Adagrad",
+      "RMSprop",
+      "Adam",
+      "AdamW",
+      "Adadelta"
+    ],
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "learning_rates": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "steps": 300,
+    "batch_size": 128,
+    "scheduler": "constant",
+    "threads": 2,
+    "target_validation_f1": 0.65,
+    "bootstrap_repeats": 1000,
+    "markov_transition": [
+      [
+        0.85,
+        0.15
+      ],
+      [
+        0.3,
+        0.7
+      ]
+    ],
+    "selection": "validation mean F1 within .01, then SD then elapsed; <=1 unstable seed"
+  },
+  "scheme": "all",
+  "transfer_scheme": "early",
+  "split_hash": "568bc4eab351f52aaac3eb19a2ae194d411e299d4782c1e0ff5bca7c5f873b10"
+}

@@ -1,0 +1,6 @@
+{
+  "old_sha256": "c618d9e652ef200f5eb58a8ce20d0d2ecea3847551a223fc00fba5114124d462",
+  "new_sha256": "18828a873665b2e4b0fa6c34fefc77fcd9213ba91e3ec4ed62f2e9d25b115c72",
+  "reason": "Re-serialize TF-IDF using pinned sklearn 1.5.2 instead of original 1.9.1; all 66,560 sparse feature rows exactly equal; vocabulary identical; numeric scaling unchanged",
+  "changed_feature_cells": 0
+}

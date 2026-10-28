@@ -1,0 +1,109 @@
+{
+  "search_date": "2026-10-22",
+  "queries": "(stochastic optimization OR adaptive gradient OR high probability OR Markovian sampling)",
+  "scope": "Targeted primary-source screening with snowballing; not an exhaustive database retrieval",
+  "records": [
+    {
+      "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full",
+      "title": "A Stochastic Approximation Method",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://www.mathnet.ru/rus/zvmmf7713",
+      "title": "О некоторых способах ускорения сходимости итерационных методов",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://www.mathnet.ru/rus/dan46009",
+      "title": "Метод решения задачи выпуклого программирования со скоростью сходимости O(1/k²)",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://jmlr.org/papers/v12/duchi11a.html",
+      "title": "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf",
+      "title": "Neural Networks for Machine Learning, Lecture 6e: RMSProp",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1212.5701",
+      "title": "ADADELTA: An Adaptive Learning Rate Method",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1412.6980",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1711.05101",
+      "title": "Decoupled Weight Decay Regularization",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v119/smith20a.html",
+      "title": "On the Generalization Benefit of Noise in Stochastic Gradient Descent",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v202/liu23aa.html",
+      "title": "High Probability Convergence of Stochastic Gradient Methods",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v202/even23a.html",
+      "title": "Stochastic Gradient Descent under Markovian Sampling Schemes",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2003.10973",
+      "title": "Finite-Time Analysis of Stochastic Gradient Descent under Markov Randomness",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1908.10063",
+      "title": "FinBERT",
+      "decision": "excluded",
+      "reason": "financial sentiment, outside chosen e-commerce task",
+      "stage": "title/topic"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.12002",
+      "title": "XuanYuan 2.0",
+      "decision": "excluded",
+      "reason": "financial model; incorrect candidate for time-series method",
+      "stage": "source verification"
+    }
+  ],
+  "identified": 14,
+  "duplicates_removed": 0,
+  "excluded": 2,
+  "included": 12
+}

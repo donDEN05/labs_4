@@ -1,0 +1,9 @@
+{
+  "algorithm": "QMIX",
+  "seed": 44,
+  "steps": 2000,
+  "elapsed": 1.1185137999709696,
+  "status": "complete",
+  "parameters": 19687,
+  "simulation_only": true
+}

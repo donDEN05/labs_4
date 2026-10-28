@@ -1,0 +1,8 @@
+{
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+    "revision": "31b70e2e869a7173562077fd711b654946d38674",
+    "license": "apache-2.0",
+    "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "path": "shared/models/HuggingFaceTB--SmolLM2-1.7B-Instruct"
+  }
+}

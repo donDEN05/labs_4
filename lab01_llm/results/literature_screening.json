@@ -1,0 +1,109 @@
+{
+  "search_date": "2026-10-22",
+  "queries": "(large language model OR few-shot OR recommendation) AND (purchase OR personalization OR retail); GigaChat Vikhr Russian",
+  "scope": "Targeted primary-source screening with snowballing; not an exhaustive database retrieval",
+  "records": [
+    {
+      "url": "https://arxiv.org/abs/1706.03762",
+      "title": "Attention Is All You Need",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.14165",
+      "title": "Language Models are Few-Shot Learners",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2106.09685",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.14314",
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.15115",
+      "title": "Qwen2.5 Technical Report",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.09388",
+      "title": "Qwen3 Technical Report",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.02737",
+      "title": "SmolLM2: When Smol Goes Big",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.09440",
+      "title": "GigaChat Family: Efficient Russian Language Modeling Through Mixture of Experts Architecture",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.13929",
+      "title": "Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2203.13366",
+      "title": "Recommendation as Language Processing: P5",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.05987",
+      "title": "Data-Driven Real-time Coupon Allocation in the Online Platform",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1703.04247",
+      "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+      "decision": "included",
+      "reason": "primary method/source relevant to protocol",
+      "stage": "title/abstract/method overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1908.10063",
+      "title": "FinBERT",
+      "decision": "excluded",
+      "reason": "financial sentiment, outside chosen e-commerce task",
+      "stage": "title/topic"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.12002",
+      "title": "XuanYuan 2.0",
+      "decision": "excluded",
+      "reason": "financial model; incorrect candidate for time-series method",
+      "stage": "source verification"
+    }
+  ],
+  "identified": 14,
+  "duplicates_removed": 0,
+  "excluded": 2,
+  "included": 12
+}

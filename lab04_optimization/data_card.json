@@ -1,0 +1,144 @@
+{
+  "source": {
+    "source": "https://bradleyboehmke.github.io/completejourney/",
+    "revision": "5b5d06192b9856edd04e4d405787af2f2e4a1fef",
+    "license": "CC0 per package documentation",
+    "config": {
+      "households": 200,
+      "categories": 8,
+      "window": 4,
+      "transfer_households": 20
+    },
+    "files": [
+      {
+        "name": "transactions.rds",
+        "url": "https://raw.githubusercontent.com/bradleyboehmke/completejourney/5b5d06192b9856edd04e4d405787af2f2e4a1fef/data/transactions.rds",
+        "sha256": "1fa0700033f1e5d9bb6b09e2be063d8d68474d346e95c50f2833e09d083e0007",
+        "bytes": 12775661,
+        "accessed": "2026-10-22"
+      },
+      {
+        "name": "products.rda",
+        "url": "https://raw.githubusercontent.com/bradleyboehmke/completejourney/5b5d06192b9856edd04e4d405787af2f2e4a1fef/data/products.rda",
+        "sha256": "a80c6df33623b4af296ae9f317a6647e369db7e8ce7e7baed0e1bf44b9d979e5",
+        "bytes": 869019,
+        "accessed": "2026-10-22"
+      },
+      {
+        "name": "campaigns.rda",
+        "url": "https://raw.githubusercontent.com/bradleyboehmke/completejourney/5b5d06192b9856edd04e4d405787af2f2e4a1fef/data/campaigns.rda",
+        "sha256": "33c7b3dc1bc722d465f97416fb1327c6a9a640190e464c73e354bce8c001a772",
+        "bytes": 8264,
+        "accessed": "2026-10-22"
+      },
+      {
+        "name": "coupon_redemptions.rda",
+        "url": "https://raw.githubusercontent.com/bradleyboehmke/completejourney/5b5d06192b9856edd04e4d405787af2f2e4a1fef/data/coupon_redemptions.rda",
+        "sha256": "4b68148175ed19300bb2615d68d1a0300a5f971db3240819ab5d92e5919e1598",
+        "bytes": 8370,
+        "accessed": "2026-10-22"
+      }
+    ]
+  },
+  "quality": {
+    "raw_rows": 1469307,
+    "duplicates": 0,
+    "missing": {
+      "household_id": 0,
+      "store_id": 0,
+      "basket_id": 0,
+      "product_id": 0,
+      "quantity": 0,
+      "sales_value": 0,
+      "retail_disc": 0,
+      "coupon_disc": 0,
+      "coupon_match_disc": 0,
+      "week": 0,
+      "transaction_timestamp": 0
+    },
+    "excluded": 11061,
+    "category_exclusions": [
+      "COUPON/MISC ITEMS: accounting entries, not goods",
+      "FUEL: outside chosen e-commerce goods scope"
+    ],
+    "weeks": [
+      1,
+      53
+    ],
+    "categories": [
+      "SOFT DRINKS",
+      "FLUID MILK PRODUCTS",
+      "BAKED BREAD/BUNS/ROLLS",
+      "CHEESE",
+      "BAG SNACKS",
+      "FRZN MEAT/MEAT DINNERS",
+      "YOGURT",
+      "SOUP"
+    ],
+    "selected_households": 200,
+    "transfer_households": 20,
+    "panel_rows": 66560,
+    "by_split": [
+      {
+        "cohort": "main",
+        "split": "test",
+        "label": 0,
+        "n": 7926
+      },
+      {
+        "cohort": "main",
+        "split": "test",
+        "label": 1,
+        "n": 1674
+      },
+      {
+        "cohort": "main",
+        "split": "train",
+        "label": 0,
+        "n": 38345
+      },
+      {
+        "cohort": "main",
+        "split": "train",
+        "label": 1,
+        "n": 8055
+      },
+      {
+        "cohort": "main",
+        "split": "validation",
+        "label": 0,
+        "n": 7943
+      },
+      {
+        "cohort": "main",
+        "split": "validation",
+        "label": 1,
+        "n": 1657
+      },
+      {
+        "cohort": "transfer",
+        "split": "test",
+        "label": 0,
+        "n": 825
+      },
+      {
+        "cohort": "transfer",
+        "split": "test",
+        "label": 1,
+        "n": 135
+      }
+    ],
+    "sample_hash": "5063df19106d13e603a54abd67efa7c48d7dbc95a28216ee310c0105d3200428",
+    "timezone": "Source week index; no exchange calendar or invented timezone",
+    "discount_sign": "Nonnegative in this processed Complete Journey version"
+  },
+  "target": "purchase in category in next week",
+  "unit": "household/category/week",
+  "history": "four previous weeks",
+  "limitations": [
+    "single grocery retailer",
+    "observational discounts",
+    "no randomized offer exposure",
+    "text/chart derived from same history"
+  ]
+}

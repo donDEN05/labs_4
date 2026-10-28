@@ -1,0 +1,9 @@
+{
+  "algorithm": "MAPPO",
+  "seed": 44,
+  "steps": 2000,
+  "elapsed": 1.033429899951443,
+  "status": "complete",
+  "parameters": 3718,
+  "simulation_only": true
+}

@@ -1,0 +1,12 @@
+{
+  "rows": 1280,
+  "models": [
+    "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "Qwen/Qwen2.5-0.5B-Instruct",
+    "Qwen/Qwen2.5-1.5B-Instruct",
+    "Qwen/Qwen3-0.6B"
+  ],
+  "protocol_hash": "e420fbe9c827b2f722a040c16bc016bf5a285b924deb4277044f57fbd08b89bd",
+  "reason": "Retrospective metadata attribution after checking exact sample identities, labels, splits, completed statuses and pinned revisions. Fixed INT8 protocol unchanged; forecasts untouched. Resource storage corrected for first 0.5B run."
+}

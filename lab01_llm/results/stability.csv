@@ -1,0 +1,17 @@
+model,mode,n,instruction_flip_rate,mean_probability_change
+HuggingFaceTB/SmolLM2-1.7B-Instruct,six-shot,32,0.25,0.17643758732407255
+HuggingFaceTB/SmolLM2-1.7B-Instruct,zero-shot,32,0.65625,0.31269816907479075
+HuggingFaceTB/SmolLM2-135M-Instruct,six-shot,32,0.71875,0.3341265735422081
+HuggingFaceTB/SmolLM2-135M-Instruct,zero-shot,32,0.75,0.34528815283056374
+HuggingFaceTB/SmolLM2-360M-Instruct,six-shot,32,0.625,0.3396485807164207
+HuggingFaceTB/SmolLM2-360M-Instruct,zero-shot,32,0.625,0.3826300529209302
+Qwen/Qwen2.5-0.5B-Instruct,six-shot,32,0.34375,0.2631292314140631
+Qwen/Qwen2.5-0.5B-Instruct,zero-shot,32,0.53125,0.4231271497523368
+Qwen/Qwen2.5-1.5B-Instruct,six-shot,32,0.125,0.17857004492056958
+Qwen/Qwen2.5-1.5B-Instruct,zero-shot,32,0.375,0.2796665691388728
+Qwen/Qwen2.5-3B-Instruct,six-shot,32,0.3125,0.3026289995413429
+Qwen/Qwen2.5-3B-Instruct,zero-shot,32,0.40625,0.342198454462426
+Qwen/Qwen3-0.6B,six-shot,32,0.875,0.6833531097817072
+Qwen/Qwen3-0.6B,zero-shot,32,0.84375,0.7891862706274937
+Qwen/Qwen3-1.7B,six-shot,32,0.5,0.45407420225957
+Qwen/Qwen3-1.7B,zero-shot,32,0.65625,0.6352871250677727

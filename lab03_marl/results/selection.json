@@ -1,0 +1,6 @@
+{
+  "algorithm": "COMA",
+  "selected_on": "validation",
+  "rule": "zero applied violations, mean profit CI overlap then lower SD",
+  "simulation_only": true
+}
